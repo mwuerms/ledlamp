@@ -1,0 +1,3417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="fp2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="fp3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="fp4" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="ANT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="usb" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="tTestdril" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="bTestdril" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-02" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-15" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="3" y1="0" x2="59" y2="0" width="0" layer="20"/>
+<dimension x1="3" y1="0" x2="3" y2="7.8" x3="1" y3="3.9" textsize="1" layer="51" dtype="vertical" width="0.1" visible="yes"/>
+<dimension x1="3" y1="0" x2="59" y2="0" x3="31" y3="-2.1" textsize="1" layer="51" dtype="horizontal" width="0.1" visible="yes"/>
+<wire x1="59" y1="7.8" x2="55.6" y2="7.8" width="0" layer="20"/>
+<wire x1="48.4" y1="7.8" x2="13.6" y2="7.8" width="0" layer="20"/>
+<wire x1="6.4" y1="7.8" x2="3" y2="7.8" width="0" layer="20"/>
+<wire x1="59" y1="7.8" x2="59" y2="0" width="0" layer="20"/>
+<wire x1="3" y1="0" x2="3" y2="7.8" width="0" layer="20"/>
+<wire x1="55" y1="7.4" x2="55" y2="0.4" width="0.8" layer="41"/>
+<wire x1="48" y1="7.4" x2="48" y2="0.4" width="0.8" layer="41"/>
+<wire x1="41" y1="7.4" x2="41" y2="0.4" width="0.8" layer="41"/>
+<wire x1="34" y1="7.4" x2="34" y2="0.4" width="0.8" layer="41"/>
+<wire x1="27" y1="7.4" x2="27" y2="0.4" width="0.8" layer="41"/>
+<wire x1="20" y1="7.4" x2="20" y2="0.4" width="0.8" layer="41"/>
+<wire x1="13" y1="7.4" x2="13" y2="0.4" width="0.8" layer="41"/>
+<wire x1="6" y1="7.4" x2="6" y2="0.4" width="0.8" layer="41"/>
+<text x="8" y="3.6" size="0.6" layer="21" font="vector" ratio="15">MEgli, L1, 2021-11-28</text>
+<text x="5.29999375" y="4.8999875" size="0.6" layer="125" font="vector">LED1</text>
+<text x="12.30000625" y="4.8999875" size="0.6" layer="125" font="vector">LED2</text>
+<text x="19.199990625" y="4.8999875" size="0.6" layer="125" font="vector">LED3</text>
+<text x="26.200003125" y="4.8999875" size="0.6" layer="125" font="vector">LED4</text>
+<text x="33.2999875" y="4.8999875" size="0.6" layer="125" font="vector">LED5</text>
+<text x="40.3" y="4.8999875" size="0.6" layer="125" font="vector">LED6</text>
+<text x="47.2000125" y="4.9999875" size="0.6" layer="125" font="vector">LED7</text>
+<text x="54.299996875" y="4.8999875" size="0.6" layer="125" font="vector">LED8</text>
+<text x="5.29999375" y="0.899996875" size="0.6" layer="125" font="vector">LED9</text>
+<text x="12.20000625" y="0.899996875" size="0.6" layer="125" font="vector">LED10</text>
+<text x="19.199990625" y="0.899996875" size="0.6" layer="125" font="vector">LED11</text>
+<text x="26.200003125" y="0.899996875" size="0.6" layer="125" font="vector">LED12</text>
+<text x="33.1999875" y="0.999996875" size="0.6" layer="125" font="vector">LED13</text>
+<text x="40.2" y="0.999996875" size="0.6" layer="125" font="vector">LED14</text>
+<text x="47.2000125" y="0.999996875" size="0.6" layer="125" font="vector">LED15</text>
+<text x="54.199996875" y="0.999996875" size="0.6" layer="125" font="vector">LED16</text>
+<text x="2.1" y="6.600009375" size="0.6" layer="126" font="vector" rot="MR0">TP1</text>
+<text x="2.1" y="4.099990625" size="0.6" layer="126" font="vector" rot="MR0">TP2</text>
+<text x="2.1" y="1.59999375" size="0.6" layer="126" font="vector" rot="MR0">TP3</text>
+<text x="55.099996875" y="6.600009375" size="0.6" layer="126" font="vector" rot="MR0">TP4</text>
+<text x="55.099996875" y="4.099990625" size="0.6" layer="126" font="vector" rot="MR0">TP5</text>
+<text x="55.099996875" y="1.59999375" size="0.6" layer="126" font="vector" rot="MR0">TP6</text>
+<wire x1="3" y1="9.8" x2="6.4" y2="9.8" width="0" layer="20"/>
+<wire x1="13.6" y1="9.8" x2="48.4" y2="9.8" width="0" layer="20"/>
+<wire x1="55.6" y1="9.8" x2="59" y2="9.8" width="0" layer="20"/>
+<wire x1="59" y1="17.6" x2="55.6" y2="17.6" width="0" layer="20"/>
+<wire x1="48.4" y1="17.6" x2="13.6" y2="17.6" width="0" layer="20"/>
+<wire x1="6.4" y1="17.6" x2="3" y2="17.6" width="0" layer="20"/>
+<wire x1="59" y1="17.6" x2="59" y2="9.8" width="0" layer="20"/>
+<wire x1="3" y1="9.8" x2="3" y2="17.6" width="0" layer="20"/>
+<wire x1="55" y1="17.2" x2="55" y2="10.2" width="0.8" layer="41"/>
+<wire x1="48" y1="17.2" x2="48" y2="10.2" width="0.8" layer="41"/>
+<wire x1="41" y1="17.2" x2="41" y2="10.2" width="0.8" layer="41"/>
+<wire x1="34" y1="17.2" x2="34" y2="10.2" width="0.8" layer="41"/>
+<wire x1="27" y1="17.2" x2="27" y2="10.2" width="0.8" layer="41"/>
+<wire x1="20" y1="17.2" x2="20" y2="10.2" width="0.8" layer="41"/>
+<wire x1="13" y1="17.2" x2="13" y2="10.2" width="0.8" layer="41"/>
+<wire x1="6" y1="17.2" x2="6" y2="10.2" width="0.8" layer="41"/>
+<text x="8" y="13.4" size="0.6" layer="21" font="vector" ratio="15">MEgli, L1, 2021-11-28</text>
+<text x="5.29999375" y="14.6999875" size="0.6" layer="125" font="vector">LED1</text>
+<text x="12.30000625" y="14.6999875" size="0.6" layer="125" font="vector">LED2</text>
+<text x="19.199990625" y="14.6999875" size="0.6" layer="125" font="vector">LED3</text>
+<text x="26.200003125" y="14.6999875" size="0.6" layer="125" font="vector">LED4</text>
+<text x="33.2999875" y="14.6999875" size="0.6" layer="125" font="vector">LED5</text>
+<text x="40.3" y="14.6999875" size="0.6" layer="125" font="vector">LED6</text>
+<text x="47.2000125" y="14.7999875" size="0.6" layer="125" font="vector">LED7</text>
+<text x="54.299996875" y="14.6999875" size="0.6" layer="125" font="vector">LED8</text>
+<text x="5.29999375" y="10.699996875" size="0.6" layer="125" font="vector">LED9</text>
+<text x="12.20000625" y="10.699996875" size="0.6" layer="125" font="vector">LED10</text>
+<text x="19.199990625" y="10.699996875" size="0.6" layer="125" font="vector">LED11</text>
+<text x="26.200003125" y="10.699996875" size="0.6" layer="125" font="vector">LED12</text>
+<text x="33.1999875" y="10.799996875" size="0.6" layer="125" font="vector">LED13</text>
+<text x="40.2" y="10.799996875" size="0.6" layer="125" font="vector">LED14</text>
+<text x="47.2000125" y="10.799996875" size="0.6" layer="125" font="vector">LED15</text>
+<text x="54.199996875" y="10.799996875" size="0.6" layer="125" font="vector">LED16</text>
+<text x="2.1" y="16.400009375" size="0.6" layer="126" font="vector" rot="MR0">TP1</text>
+<text x="2.1" y="13.899990625" size="0.6" layer="126" font="vector" rot="MR0">TP2</text>
+<text x="2.1" y="11.39999375" size="0.6" layer="126" font="vector" rot="MR0">TP3</text>
+<text x="55.099996875" y="16.400009375" size="0.6" layer="126" font="vector" rot="MR0">TP4</text>
+<text x="55.099996875" y="13.899990625" size="0.6" layer="126" font="vector" rot="MR0">TP5</text>
+<text x="55.099996875" y="11.39999375" size="0.6" layer="126" font="vector" rot="MR0">TP6</text>
+<wire x1="3" y1="19.6" x2="6.4" y2="19.6" width="0" layer="20"/>
+<wire x1="13.6" y1="19.6" x2="48.4" y2="19.6" width="0" layer="20"/>
+<wire x1="55.6" y1="19.6" x2="59" y2="19.6" width="0" layer="20"/>
+<wire x1="59" y1="27.4" x2="55.6" y2="27.4" width="0" layer="20"/>
+<wire x1="48.4" y1="27.4" x2="13.6" y2="27.4" width="0" layer="20"/>
+<wire x1="6.4" y1="27.4" x2="3" y2="27.4" width="0" layer="20"/>
+<wire x1="59" y1="27.4" x2="59" y2="19.6" width="0" layer="20"/>
+<wire x1="3" y1="19.6" x2="3" y2="27.4" width="0" layer="20"/>
+<wire x1="55" y1="27" x2="55" y2="20" width="0.8" layer="41"/>
+<wire x1="48" y1="27" x2="48" y2="20" width="0.8" layer="41"/>
+<wire x1="41" y1="27" x2="41" y2="20" width="0.8" layer="41"/>
+<wire x1="34" y1="27" x2="34" y2="20" width="0.8" layer="41"/>
+<wire x1="27" y1="27" x2="27" y2="20" width="0.8" layer="41"/>
+<wire x1="20" y1="27" x2="20" y2="20" width="0.8" layer="41"/>
+<wire x1="13" y1="27" x2="13" y2="20" width="0.8" layer="41"/>
+<wire x1="6" y1="27" x2="6" y2="20" width="0.8" layer="41"/>
+<text x="8" y="23.2" size="0.6" layer="21" font="vector" ratio="15">MEgli, L1, 2021-11-28</text>
+<text x="5.29999375" y="24.4999875" size="0.6" layer="125" font="vector">LED1</text>
+<text x="12.30000625" y="24.4999875" size="0.6" layer="125" font="vector">LED2</text>
+<text x="19.199990625" y="24.4999875" size="0.6" layer="125" font="vector">LED3</text>
+<text x="26.200003125" y="24.4999875" size="0.6" layer="125" font="vector">LED4</text>
+<text x="33.2999875" y="24.4999875" size="0.6" layer="125" font="vector">LED5</text>
+<text x="40.3" y="24.4999875" size="0.6" layer="125" font="vector">LED6</text>
+<text x="47.2000125" y="24.5999875" size="0.6" layer="125" font="vector">LED7</text>
+<text x="54.299996875" y="24.4999875" size="0.6" layer="125" font="vector">LED8</text>
+<text x="5.29999375" y="20.499996875" size="0.6" layer="125" font="vector">LED9</text>
+<text x="12.20000625" y="20.499996875" size="0.6" layer="125" font="vector">LED10</text>
+<text x="19.199990625" y="20.499996875" size="0.6" layer="125" font="vector">LED11</text>
+<text x="26.200003125" y="20.499996875" size="0.6" layer="125" font="vector">LED12</text>
+<text x="33.1999875" y="20.599996875" size="0.6" layer="125" font="vector">LED13</text>
+<text x="40.2" y="20.599996875" size="0.6" layer="125" font="vector">LED14</text>
+<text x="47.2000125" y="20.599996875" size="0.6" layer="125" font="vector">LED15</text>
+<text x="54.199996875" y="20.599996875" size="0.6" layer="125" font="vector">LED16</text>
+<text x="2.1" y="26.200009375" size="0.6" layer="126" font="vector" rot="MR0">TP1</text>
+<text x="2.1" y="23.699990625" size="0.6" layer="126" font="vector" rot="MR0">TP2</text>
+<text x="2.1" y="21.19999375" size="0.6" layer="126" font="vector" rot="MR0">TP3</text>
+<text x="55.099996875" y="26.200009375" size="0.6" layer="126" font="vector" rot="MR0">TP4</text>
+<text x="55.099996875" y="23.699990625" size="0.6" layer="126" font="vector" rot="MR0">TP5</text>
+<text x="55.099996875" y="21.19999375" size="0.6" layer="126" font="vector" rot="MR0">TP6</text>
+<wire x1="3" y1="29.4" x2="6.4" y2="29.4" width="0" layer="20"/>
+<wire x1="13.6" y1="29.4" x2="48.4" y2="29.4" width="0" layer="20"/>
+<wire x1="55.6" y1="29.4" x2="59" y2="29.4" width="0" layer="20"/>
+<wire x1="59" y1="37.2" x2="55.6" y2="37.2" width="0" layer="20"/>
+<wire x1="48.4" y1="37.2" x2="13.6" y2="37.2" width="0" layer="20"/>
+<wire x1="6.4" y1="37.2" x2="3" y2="37.2" width="0" layer="20"/>
+<wire x1="59" y1="37.2" x2="59" y2="29.4" width="0" layer="20"/>
+<wire x1="3" y1="29.4" x2="3" y2="37.2" width="0" layer="20"/>
+<wire x1="55" y1="36.8" x2="55" y2="29.8" width="0.8" layer="41"/>
+<wire x1="48" y1="36.8" x2="48" y2="29.8" width="0.8" layer="41"/>
+<wire x1="41" y1="36.8" x2="41" y2="29.8" width="0.8" layer="41"/>
+<wire x1="34" y1="36.8" x2="34" y2="29.8" width="0.8" layer="41"/>
+<wire x1="27" y1="36.8" x2="27" y2="29.8" width="0.8" layer="41"/>
+<wire x1="20" y1="36.8" x2="20" y2="29.8" width="0.8" layer="41"/>
+<wire x1="13" y1="36.8" x2="13" y2="29.8" width="0.8" layer="41"/>
+<wire x1="6" y1="36.8" x2="6" y2="29.8" width="0.8" layer="41"/>
+<text x="8" y="33" size="0.6" layer="21" font="vector" ratio="15">MEgli, L1, 2021-11-28</text>
+<text x="5.29999375" y="34.2999875" size="0.6" layer="125" font="vector">LED1</text>
+<text x="12.30000625" y="34.2999875" size="0.6" layer="125" font="vector">LED2</text>
+<text x="19.199990625" y="34.2999875" size="0.6" layer="125" font="vector">LED3</text>
+<text x="26.200003125" y="34.2999875" size="0.6" layer="125" font="vector">LED4</text>
+<text x="33.2999875" y="34.2999875" size="0.6" layer="125" font="vector">LED5</text>
+<text x="40.3" y="34.2999875" size="0.6" layer="125" font="vector">LED6</text>
+<text x="47.2000125" y="34.3999875" size="0.6" layer="125" font="vector">LED7</text>
+<text x="54.299996875" y="34.2999875" size="0.6" layer="125" font="vector">LED8</text>
+<text x="5.29999375" y="30.299996875" size="0.6" layer="125" font="vector">LED9</text>
+<text x="12.20000625" y="30.299996875" size="0.6" layer="125" font="vector">LED10</text>
+<text x="19.199990625" y="30.299996875" size="0.6" layer="125" font="vector">LED11</text>
+<text x="26.200003125" y="30.299996875" size="0.6" layer="125" font="vector">LED12</text>
+<text x="33.1999875" y="30.399996875" size="0.6" layer="125" font="vector">LED13</text>
+<text x="40.2" y="30.399996875" size="0.6" layer="125" font="vector">LED14</text>
+<text x="47.2000125" y="30.399996875" size="0.6" layer="125" font="vector">LED15</text>
+<text x="54.199996875" y="30.399996875" size="0.6" layer="125" font="vector">LED16</text>
+<text x="2.1" y="36.000009375" size="0.6" layer="126" font="vector" rot="MR0">TP1</text>
+<text x="2.1" y="33.499990625" size="0.6" layer="126" font="vector" rot="MR0">TP2</text>
+<text x="2.1" y="30.99999375" size="0.6" layer="126" font="vector" rot="MR0">TP3</text>
+<text x="55.099996875" y="36.000009375" size="0.6" layer="126" font="vector" rot="MR0">TP4</text>
+<text x="55.099996875" y="33.499990625" size="0.6" layer="126" font="vector" rot="MR0">TP5</text>
+<text x="55.099996875" y="30.99999375" size="0.6" layer="126" font="vector" rot="MR0">TP6</text>
+<wire x1="3" y1="39.2" x2="6.4" y2="39.2" width="0" layer="20"/>
+<wire x1="13.6" y1="39.2" x2="48.4" y2="39.2" width="0" layer="20"/>
+<wire x1="55.6" y1="39.2" x2="59" y2="39.2" width="0" layer="20"/>
+<wire x1="59" y1="47" x2="55.6" y2="47" width="0" layer="20"/>
+<wire x1="48.4" y1="47" x2="13.6" y2="47" width="0" layer="20"/>
+<wire x1="6.4" y1="47" x2="3" y2="47" width="0" layer="20"/>
+<wire x1="59" y1="47" x2="59" y2="39.2" width="0" layer="20"/>
+<wire x1="3" y1="39.2" x2="3" y2="47" width="0" layer="20"/>
+<wire x1="55" y1="46.6" x2="55" y2="39.6" width="0.8" layer="41"/>
+<wire x1="48" y1="46.6" x2="48" y2="39.6" width="0.8" layer="41"/>
+<wire x1="41" y1="46.6" x2="41" y2="39.6" width="0.8" layer="41"/>
+<wire x1="34" y1="46.6" x2="34" y2="39.6" width="0.8" layer="41"/>
+<wire x1="27" y1="46.6" x2="27" y2="39.6" width="0.8" layer="41"/>
+<wire x1="20" y1="46.6" x2="20" y2="39.6" width="0.8" layer="41"/>
+<wire x1="13" y1="46.6" x2="13" y2="39.6" width="0.8" layer="41"/>
+<wire x1="6" y1="46.6" x2="6" y2="39.6" width="0.8" layer="41"/>
+<text x="8" y="42.8" size="0.6" layer="21" font="vector" ratio="15">MEgli, L1, 2021-11-28</text>
+<text x="5.29999375" y="44.0999875" size="0.6" layer="125" font="vector">LED1</text>
+<text x="12.30000625" y="44.0999875" size="0.6" layer="125" font="vector">LED2</text>
+<text x="19.199990625" y="44.0999875" size="0.6" layer="125" font="vector">LED3</text>
+<text x="26.200003125" y="44.0999875" size="0.6" layer="125" font="vector">LED4</text>
+<text x="33.2999875" y="44.0999875" size="0.6" layer="125" font="vector">LED5</text>
+<text x="40.3" y="44.0999875" size="0.6" layer="125" font="vector">LED6</text>
+<text x="47.2000125" y="44.1999875" size="0.6" layer="125" font="vector">LED7</text>
+<text x="54.299996875" y="44.0999875" size="0.6" layer="125" font="vector">LED8</text>
+<text x="5.29999375" y="40.099996875" size="0.6" layer="125" font="vector">LED9</text>
+<text x="12.20000625" y="40.099996875" size="0.6" layer="125" font="vector">LED10</text>
+<text x="19.199990625" y="40.099996875" size="0.6" layer="125" font="vector">LED11</text>
+<text x="26.200003125" y="40.099996875" size="0.6" layer="125" font="vector">LED12</text>
+<text x="33.1999875" y="40.199996875" size="0.6" layer="125" font="vector">LED13</text>
+<text x="40.2" y="40.199996875" size="0.6" layer="125" font="vector">LED14</text>
+<text x="47.2000125" y="40.199996875" size="0.6" layer="125" font="vector">LED15</text>
+<text x="54.199996875" y="40.199996875" size="0.6" layer="125" font="vector">LED16</text>
+<text x="2.1" y="45.800009375" size="0.6" layer="126" font="vector" rot="MR0">TP1</text>
+<text x="2.1" y="43.299990625" size="0.6" layer="126" font="vector" rot="MR0">TP2</text>
+<text x="2.1" y="40.79999375" size="0.6" layer="126" font="vector" rot="MR0">TP3</text>
+<text x="55.099996875" y="45.800009375" size="0.6" layer="126" font="vector" rot="MR0">TP4</text>
+<text x="55.099996875" y="43.299990625" size="0.6" layer="126" font="vector" rot="MR0">TP5</text>
+<text x="55.099996875" y="40.79999375" size="0.6" layer="126" font="vector" rot="MR0">TP6</text>
+<wire x1="3" y1="49" x2="6.4" y2="49" width="0" layer="20"/>
+<wire x1="13.6" y1="49" x2="48.4" y2="49" width="0" layer="20"/>
+<wire x1="55.6" y1="49" x2="59" y2="49" width="0" layer="20"/>
+<wire x1="59" y1="56.8" x2="55.6" y2="56.8" width="0" layer="20"/>
+<wire x1="48.4" y1="56.8" x2="13.6" y2="56.8" width="0" layer="20"/>
+<wire x1="6.4" y1="56.8" x2="3" y2="56.8" width="0" layer="20"/>
+<wire x1="59" y1="56.8" x2="59" y2="49" width="0" layer="20"/>
+<wire x1="3" y1="49" x2="3" y2="56.8" width="0" layer="20"/>
+<wire x1="55" y1="56.4" x2="55" y2="49.4" width="0.8" layer="41"/>
+<wire x1="48" y1="56.4" x2="48" y2="49.4" width="0.8" layer="41"/>
+<wire x1="41" y1="56.4" x2="41" y2="49.4" width="0.8" layer="41"/>
+<wire x1="34" y1="56.4" x2="34" y2="49.4" width="0.8" layer="41"/>
+<wire x1="27" y1="56.4" x2="27" y2="49.4" width="0.8" layer="41"/>
+<wire x1="20" y1="56.4" x2="20" y2="49.4" width="0.8" layer="41"/>
+<wire x1="13" y1="56.4" x2="13" y2="49.4" width="0.8" layer="41"/>
+<wire x1="6" y1="56.4" x2="6" y2="49.4" width="0.8" layer="41"/>
+<text x="8" y="52.6" size="0.6" layer="21" font="vector" ratio="15">MEgli, L1, 2021-11-28</text>
+<text x="5.29999375" y="53.8999875" size="0.6" layer="125" font="vector">LED1</text>
+<text x="12.30000625" y="53.8999875" size="0.6" layer="125" font="vector">LED2</text>
+<text x="19.199990625" y="53.8999875" size="0.6" layer="125" font="vector">LED3</text>
+<text x="26.200003125" y="53.8999875" size="0.6" layer="125" font="vector">LED4</text>
+<text x="33.2999875" y="53.8999875" size="0.6" layer="125" font="vector">LED5</text>
+<text x="40.3" y="53.8999875" size="0.6" layer="125" font="vector">LED6</text>
+<text x="47.2000125" y="53.9999875" size="0.6" layer="125" font="vector">LED7</text>
+<text x="54.299996875" y="53.8999875" size="0.6" layer="125" font="vector">LED8</text>
+<text x="5.29999375" y="49.899996875" size="0.6" layer="125" font="vector">LED9</text>
+<text x="12.20000625" y="49.899996875" size="0.6" layer="125" font="vector">LED10</text>
+<text x="19.199990625" y="49.899996875" size="0.6" layer="125" font="vector">LED11</text>
+<text x="26.200003125" y="49.899996875" size="0.6" layer="125" font="vector">LED12</text>
+<text x="33.1999875" y="49.999996875" size="0.6" layer="125" font="vector">LED13</text>
+<text x="40.2" y="49.999996875" size="0.6" layer="125" font="vector">LED14</text>
+<text x="47.2000125" y="49.999996875" size="0.6" layer="125" font="vector">LED15</text>
+<text x="54.199996875" y="49.999996875" size="0.6" layer="125" font="vector">LED16</text>
+<text x="2.1" y="55.600009375" size="0.6" layer="126" font="vector" rot="MR0">TP1</text>
+<text x="2.1" y="53.099990625" size="0.6" layer="126" font="vector" rot="MR0">TP2</text>
+<text x="2.1" y="50.59999375" size="0.6" layer="126" font="vector" rot="MR0">TP3</text>
+<text x="55.099996875" y="55.600009375" size="0.6" layer="126" font="vector" rot="MR0">TP4</text>
+<text x="55.099996875" y="53.099990625" size="0.6" layer="126" font="vector" rot="MR0">TP5</text>
+<text x="55.099996875" y="50.59999375" size="0.6" layer="126" font="vector" rot="MR0">TP6</text>
+<wire x1="3" y1="58.8" x2="6.4" y2="58.8" width="0" layer="20"/>
+<wire x1="13.6" y1="58.8" x2="48.4" y2="58.8" width="0" layer="20"/>
+<wire x1="55.6" y1="58.8" x2="59" y2="58.8" width="0" layer="20"/>
+<wire x1="59" y1="66.6" x2="55.6" y2="66.6" width="0" layer="20"/>
+<wire x1="48.4" y1="66.6" x2="13.6" y2="66.6" width="0" layer="20"/>
+<wire x1="6.4" y1="66.6" x2="3" y2="66.6" width="0" layer="20"/>
+<wire x1="59" y1="66.6" x2="59" y2="58.8" width="0" layer="20"/>
+<wire x1="3" y1="58.8" x2="3" y2="66.6" width="0" layer="20"/>
+<wire x1="55" y1="66.2" x2="55" y2="59.2" width="0.8" layer="41"/>
+<wire x1="48" y1="66.2" x2="48" y2="59.2" width="0.8" layer="41"/>
+<wire x1="41" y1="66.2" x2="41" y2="59.2" width="0.8" layer="41"/>
+<wire x1="34" y1="66.2" x2="34" y2="59.2" width="0.8" layer="41"/>
+<wire x1="27" y1="66.2" x2="27" y2="59.2" width="0.8" layer="41"/>
+<wire x1="20" y1="66.2" x2="20" y2="59.2" width="0.8" layer="41"/>
+<wire x1="13" y1="66.2" x2="13" y2="59.2" width="0.8" layer="41"/>
+<wire x1="6" y1="66.2" x2="6" y2="59.2" width="0.8" layer="41"/>
+<text x="8" y="62.4" size="0.6" layer="21" font="vector" ratio="15">MEgli, L1, 2021-11-28</text>
+<text x="5.29999375" y="63.6999875" size="0.6" layer="125" font="vector">LED1</text>
+<text x="12.30000625" y="63.6999875" size="0.6" layer="125" font="vector">LED2</text>
+<text x="19.199990625" y="63.6999875" size="0.6" layer="125" font="vector">LED3</text>
+<text x="26.200003125" y="63.6999875" size="0.6" layer="125" font="vector">LED4</text>
+<text x="33.2999875" y="63.6999875" size="0.6" layer="125" font="vector">LED5</text>
+<text x="40.3" y="63.6999875" size="0.6" layer="125" font="vector">LED6</text>
+<text x="47.2000125" y="63.7999875" size="0.6" layer="125" font="vector">LED7</text>
+<text x="54.299996875" y="63.6999875" size="0.6" layer="125" font="vector">LED8</text>
+<text x="5.29999375" y="59.699996875" size="0.6" layer="125" font="vector">LED9</text>
+<text x="12.20000625" y="59.699996875" size="0.6" layer="125" font="vector">LED10</text>
+<text x="19.199990625" y="59.699996875" size="0.6" layer="125" font="vector">LED11</text>
+<text x="26.200003125" y="59.699996875" size="0.6" layer="125" font="vector">LED12</text>
+<text x="33.1999875" y="59.799996875" size="0.6" layer="125" font="vector">LED13</text>
+<text x="40.2" y="59.799996875" size="0.6" layer="125" font="vector">LED14</text>
+<text x="47.2000125" y="59.799996875" size="0.6" layer="125" font="vector">LED15</text>
+<text x="54.199996875" y="59.799996875" size="0.6" layer="125" font="vector">LED16</text>
+<text x="2.1" y="65.400009375" size="0.6" layer="126" font="vector" rot="MR0">TP1</text>
+<text x="2.1" y="62.899990625" size="0.6" layer="126" font="vector" rot="MR0">TP2</text>
+<text x="2.1" y="60.39999375" size="0.6" layer="126" font="vector" rot="MR0">TP3</text>
+<text x="55.099996875" y="65.400009375" size="0.6" layer="126" font="vector" rot="MR0">TP4</text>
+<text x="55.099996875" y="62.899990625" size="0.6" layer="126" font="vector" rot="MR0">TP5</text>
+<text x="55.099996875" y="60.39999375" size="0.6" layer="126" font="vector" rot="MR0">TP6</text>
+<wire x1="13.6" y1="7.8" x2="12.6" y2="8.8" width="0" layer="20" curve="-90"/>
+<wire x1="12.6" y1="8.8" x2="13.6" y2="9.8" width="0" layer="20" curve="-90"/>
+<wire x1="48.4" y1="9.8" x2="49.4" y2="8.8" width="0" layer="20" curve="-90"/>
+<wire x1="49.4" y1="8.8" x2="48.4" y2="7.8" width="0" layer="20" curve="-90"/>
+<wire x1="54.6" y1="8.8" x2="55.6" y2="9.8" width="0" layer="20" curve="-90"/>
+<wire x1="55.6" y1="7.8" x2="54.6" y2="8.8" width="0" layer="20" curve="-90"/>
+<wire x1="6.4" y1="19.6" x2="7.4" y2="18.6" width="0" layer="20" curve="-90"/>
+<wire x1="6.4" y1="9.8" x2="7.4" y2="8.8" width="0" layer="20" curve="-90"/>
+<wire x1="7.4" y1="8.8" x2="6.4" y2="7.8" width="0" layer="20" curve="-90"/>
+<wire x1="7.4" y1="18.6" x2="6.4" y2="17.6" width="0" layer="20" curve="-90"/>
+<wire x1="6.4" y1="29.4" x2="7.4" y2="28.4" width="0" layer="20" curve="-90"/>
+<wire x1="7.4" y1="28.4" x2="6.4" y2="27.4" width="0" layer="20" curve="-90"/>
+<wire x1="6.4" y1="39.2" x2="7.4" y2="38.2" width="0" layer="20" curve="-90"/>
+<wire x1="7.4" y1="38.2" x2="6.4" y2="37.2" width="0" layer="20" curve="-90"/>
+<wire x1="6.4" y1="49" x2="7.4" y2="48" width="0" layer="20" curve="-90"/>
+<wire x1="7.4" y1="48" x2="6.4" y2="47" width="0" layer="20" curve="-90"/>
+<wire x1="6.4" y1="58.8" x2="7.4" y2="57.8" width="0" layer="20" curve="-90"/>
+<wire x1="7.4" y1="57.8" x2="6.4" y2="56.8" width="0" layer="20" curve="-90"/>
+<wire x1="13.6" y1="17.6" x2="12.6" y2="18.6" width="0" layer="20" curve="-90"/>
+<wire x1="12.6" y1="18.6" x2="13.6" y2="19.6" width="0" layer="20" curve="-90"/>
+<wire x1="13.6" y1="27.4" x2="12.6" y2="28.4" width="0" layer="20" curve="-90"/>
+<wire x1="12.6" y1="28.4" x2="13.6" y2="29.4" width="0" layer="20" curve="-90"/>
+<wire x1="13.6" y1="37.2" x2="12.6" y2="38.2" width="0" layer="20" curve="-90"/>
+<wire x1="12.6" y1="38.2" x2="13.6" y2="39.2" width="0" layer="20" curve="-90"/>
+<wire x1="13.6" y1="47" x2="12.6" y2="48" width="0" layer="20" curve="-90"/>
+<wire x1="12.6" y1="48" x2="13.6" y2="49" width="0" layer="20" curve="-90"/>
+<wire x1="13.6" y1="56.8" x2="12.6" y2="57.8" width="0" layer="20" curve="-90"/>
+<wire x1="12.6" y1="57.8" x2="13.6" y2="58.8" width="0" layer="20" curve="-90"/>
+<wire x1="49.4" y1="18.6" x2="48.4" y2="17.6" width="0" layer="20" curve="-90"/>
+<wire x1="48.4" y1="19.6" x2="49.4" y2="18.6" width="0" layer="20" curve="-90"/>
+<wire x1="54.6" y1="18.6" x2="55.6" y2="19.6" width="0" layer="20" curve="-90"/>
+<wire x1="55.6" y1="17.6" x2="54.6" y2="18.6" width="0" layer="20" curve="-90"/>
+<wire x1="55.6" y1="27.4" x2="54.6" y2="28.4" width="0" layer="20" curve="-90"/>
+<wire x1="54.6" y1="28.4" x2="55.6" y2="29.4" width="0" layer="20" curve="-90"/>
+<wire x1="49.4" y1="28.4" x2="48.4" y2="27.4" width="0" layer="20" curve="-90"/>
+<wire x1="48.4" y1="29.4" x2="49.4" y2="28.4" width="0" layer="20" curve="-90"/>
+<wire x1="49.4" y1="38.2" x2="48.4" y2="37.2" width="0" layer="20" curve="-90"/>
+<wire x1="48.4" y1="39.2" x2="49.4" y2="38.2" width="0" layer="20" curve="-90"/>
+<wire x1="54.6" y1="38.2" x2="55.6" y2="39.2" width="0" layer="20" curve="-90"/>
+<wire x1="55.6" y1="37.2" x2="54.6" y2="38.2" width="0" layer="20" curve="-90"/>
+<wire x1="55.6" y1="47" x2="54.6" y2="48" width="0" layer="20" curve="-90"/>
+<wire x1="49.4" y1="48" x2="48.4" y2="47" width="0" layer="20" curve="-90"/>
+<wire x1="48.4" y1="49" x2="49.4" y2="48" width="0" layer="20" curve="-90"/>
+<wire x1="54.6" y1="48" x2="55.6" y2="49" width="0" layer="20" curve="-90"/>
+<wire x1="54.6" y1="57.8" x2="55.6" y2="58.8" width="0" layer="20" curve="-90"/>
+<wire x1="55.6" y1="56.8" x2="54.6" y2="57.8" width="0" layer="20" curve="-90"/>
+<wire x1="49.4" y1="57.8" x2="48.4" y2="56.8" width="0" layer="20" curve="-90"/>
+<wire x1="48.4" y1="58.8" x2="49.4" y2="57.8" width="0" layer="20" curve="-90"/>
+<wire x1="3" y1="68.6" x2="6.4" y2="68.6" width="0" layer="20"/>
+<wire x1="13.6" y1="68.6" x2="48.4" y2="68.6" width="0" layer="20"/>
+<wire x1="55.6" y1="68.6" x2="59" y2="68.6" width="0" layer="20"/>
+<wire x1="59" y1="76.4" x2="55.6" y2="76.4" width="0" layer="20"/>
+<wire x1="48.4" y1="76.4" x2="13.6" y2="76.4" width="0" layer="20"/>
+<wire x1="6.4" y1="76.4" x2="3" y2="76.4" width="0" layer="20"/>
+<wire x1="59" y1="76.4" x2="59" y2="68.6" width="0" layer="20"/>
+<wire x1="3" y1="68.6" x2="3" y2="76.4" width="0" layer="20"/>
+<wire x1="55" y1="76" x2="55" y2="69" width="0.8" layer="41"/>
+<wire x1="48" y1="76" x2="48" y2="69" width="0.8" layer="41"/>
+<wire x1="41" y1="76" x2="41" y2="69" width="0.8" layer="41"/>
+<wire x1="34" y1="76" x2="34" y2="69" width="0.8" layer="41"/>
+<wire x1="27" y1="76" x2="27" y2="69" width="0.8" layer="41"/>
+<wire x1="20" y1="76" x2="20" y2="69" width="0.8" layer="41"/>
+<wire x1="13" y1="76" x2="13" y2="69" width="0.8" layer="41"/>
+<wire x1="6" y1="76" x2="6" y2="69" width="0.8" layer="41"/>
+<text x="8" y="72.2" size="0.6" layer="21" font="vector" ratio="15">MEgli, L1, 2021-11-28</text>
+<text x="5.29999375" y="73.4999875" size="0.6" layer="125" font="vector">LED1</text>
+<text x="12.30000625" y="73.4999875" size="0.6" layer="125" font="vector">LED2</text>
+<text x="19.199990625" y="73.4999875" size="0.6" layer="125" font="vector">LED3</text>
+<text x="26.200003125" y="73.4999875" size="0.6" layer="125" font="vector">LED4</text>
+<text x="33.2999875" y="73.4999875" size="0.6" layer="125" font="vector">LED5</text>
+<text x="40.3" y="73.4999875" size="0.6" layer="125" font="vector">LED6</text>
+<text x="47.2000125" y="73.5999875" size="0.6" layer="125" font="vector">LED7</text>
+<text x="54.299996875" y="73.4999875" size="0.6" layer="125" font="vector">LED8</text>
+<text x="5.29999375" y="69.499996875" size="0.6" layer="125" font="vector">LED9</text>
+<text x="12.20000625" y="69.499996875" size="0.6" layer="125" font="vector">LED10</text>
+<text x="19.199990625" y="69.499996875" size="0.6" layer="125" font="vector">LED11</text>
+<text x="26.200003125" y="69.499996875" size="0.6" layer="125" font="vector">LED12</text>
+<text x="33.1999875" y="69.599996875" size="0.6" layer="125" font="vector">LED13</text>
+<text x="40.2" y="69.599996875" size="0.6" layer="125" font="vector">LED14</text>
+<text x="47.2000125" y="69.599996875" size="0.6" layer="125" font="vector">LED15</text>
+<text x="54.199996875" y="69.599996875" size="0.6" layer="125" font="vector">LED16</text>
+<text x="2.1" y="75.200009375" size="0.6" layer="126" font="vector" rot="MR0">TP1</text>
+<text x="2.1" y="72.699990625" size="0.6" layer="126" font="vector" rot="MR0">TP2</text>
+<text x="2.1" y="70.19999375" size="0.6" layer="126" font="vector" rot="MR0">TP3</text>
+<text x="55.099996875" y="75.200009375" size="0.6" layer="126" font="vector" rot="MR0">TP4</text>
+<text x="55.099996875" y="72.699990625" size="0.6" layer="126" font="vector" rot="MR0">TP5</text>
+<text x="55.099996875" y="70.19999375" size="0.6" layer="126" font="vector" rot="MR0">TP6</text>
+<wire x1="6.4" y1="68.6" x2="7.4" y2="67.6" width="0" layer="20" curve="-90"/>
+<wire x1="7.4" y1="67.6" x2="6.4" y2="66.6" width="0" layer="20" curve="-90"/>
+<wire x1="13.6" y1="66.6" x2="12.6" y2="67.6" width="0" layer="20" curve="-90"/>
+<wire x1="12.6" y1="67.6" x2="13.6" y2="68.6" width="0" layer="20" curve="-90"/>
+<wire x1="54.6" y1="67.6" x2="55.6" y2="68.6" width="0" layer="20" curve="-90"/>
+<wire x1="55.6" y1="66.6" x2="54.6" y2="67.6" width="0" layer="20" curve="-90"/>
+<wire x1="49.4" y1="67.6" x2="48.4" y2="66.6" width="0" layer="20" curve="-90"/>
+<wire x1="48.4" y1="68.6" x2="49.4" y2="67.6" width="0" layer="20" curve="-90"/>
+<wire x1="3" y1="78.4" x2="6.4" y2="78.4" width="0" layer="20"/>
+<wire x1="13.6" y1="78.4" x2="48.4" y2="78.4" width="0" layer="20"/>
+<wire x1="55.6" y1="78.4" x2="59" y2="78.4" width="0" layer="20"/>
+<wire x1="59" y1="86.2" x2="55.6" y2="86.2" width="0" layer="20"/>
+<wire x1="48.4" y1="86.2" x2="13.6" y2="86.2" width="0" layer="20"/>
+<wire x1="6.4" y1="86.2" x2="3" y2="86.2" width="0" layer="20"/>
+<wire x1="59" y1="86.2" x2="59" y2="78.4" width="0" layer="20"/>
+<wire x1="3" y1="78.4" x2="3" y2="86.2" width="0" layer="20"/>
+<wire x1="55" y1="85.8" x2="55" y2="78.8" width="0.8" layer="41"/>
+<wire x1="48" y1="85.8" x2="48" y2="78.8" width="0.8" layer="41"/>
+<wire x1="41" y1="85.8" x2="41" y2="78.8" width="0.8" layer="41"/>
+<wire x1="34" y1="85.8" x2="34" y2="78.8" width="0.8" layer="41"/>
+<wire x1="27" y1="85.8" x2="27" y2="78.8" width="0.8" layer="41"/>
+<wire x1="20" y1="85.8" x2="20" y2="78.8" width="0.8" layer="41"/>
+<wire x1="13" y1="85.8" x2="13" y2="78.8" width="0.8" layer="41"/>
+<wire x1="6" y1="85.8" x2="6" y2="78.8" width="0.8" layer="41"/>
+<text x="8" y="82" size="0.6" layer="21" font="vector" ratio="15">MEgli, L1, 2021-11-28</text>
+<text x="5.29999375" y="83.2999875" size="0.6" layer="125" font="vector">LED1</text>
+<text x="12.30000625" y="83.2999875" size="0.6" layer="125" font="vector">LED2</text>
+<text x="19.199990625" y="83.2999875" size="0.6" layer="125" font="vector">LED3</text>
+<text x="26.200003125" y="83.2999875" size="0.6" layer="125" font="vector">LED4</text>
+<text x="33.2999875" y="83.2999875" size="0.6" layer="125" font="vector">LED5</text>
+<text x="40.3" y="83.2999875" size="0.6" layer="125" font="vector">LED6</text>
+<text x="47.2000125" y="83.3999875" size="0.6" layer="125" font="vector">LED7</text>
+<text x="54.299996875" y="83.2999875" size="0.6" layer="125" font="vector">LED8</text>
+<text x="5.29999375" y="79.299996875" size="0.6" layer="125" font="vector">LED9</text>
+<text x="12.20000625" y="79.299996875" size="0.6" layer="125" font="vector">LED10</text>
+<text x="19.199990625" y="79.299996875" size="0.6" layer="125" font="vector">LED11</text>
+<text x="26.200003125" y="79.299996875" size="0.6" layer="125" font="vector">LED12</text>
+<text x="33.1999875" y="79.399996875" size="0.6" layer="125" font="vector">LED13</text>
+<text x="40.2" y="79.399996875" size="0.6" layer="125" font="vector">LED14</text>
+<text x="47.2000125" y="79.399996875" size="0.6" layer="125" font="vector">LED15</text>
+<text x="54.199996875" y="79.399996875" size="0.6" layer="125" font="vector">LED16</text>
+<text x="2.1" y="85.000009375" size="0.6" layer="126" font="vector" rot="MR0">TP1</text>
+<text x="2.1" y="82.499990625" size="0.6" layer="126" font="vector" rot="MR0">TP2</text>
+<text x="2.1" y="79.99999375" size="0.6" layer="126" font="vector" rot="MR0">TP3</text>
+<text x="55.099996875" y="85.000009375" size="0.6" layer="126" font="vector" rot="MR0">TP4</text>
+<text x="55.099996875" y="82.499990625" size="0.6" layer="126" font="vector" rot="MR0">TP5</text>
+<text x="55.099996875" y="79.99999375" size="0.6" layer="126" font="vector" rot="MR0">TP6</text>
+<wire x1="6.4" y1="78.4" x2="7.4" y2="77.4" width="0" layer="20" curve="-90"/>
+<wire x1="7.4" y1="77.4" x2="6.4" y2="76.4" width="0" layer="20" curve="-90"/>
+<wire x1="13.6" y1="76.4" x2="12.6" y2="77.4" width="0" layer="20" curve="-90"/>
+<wire x1="12.6" y1="77.4" x2="13.6" y2="78.4" width="0" layer="20" curve="-90"/>
+<wire x1="54.6" y1="77.4" x2="55.6" y2="78.4" width="0" layer="20" curve="-90"/>
+<wire x1="55.6" y1="76.4" x2="54.6" y2="77.4" width="0" layer="20" curve="-90"/>
+<wire x1="49.4" y1="77.4" x2="48.4" y2="76.4" width="0" layer="20" curve="-90"/>
+<wire x1="48.4" y1="78.4" x2="49.4" y2="77.4" width="0" layer="20" curve="-90"/>
+<wire x1="3" y1="88.2" x2="6.4" y2="88.2" width="0" layer="20"/>
+<wire x1="13.6" y1="88.2" x2="48.4" y2="88.2" width="0" layer="20"/>
+<wire x1="55.6" y1="88.2" x2="59" y2="88.2" width="0" layer="20"/>
+<wire x1="59" y1="96" x2="59" y2="88.2" width="0" layer="20"/>
+<wire x1="3" y1="88.2" x2="3" y2="96" width="0" layer="20"/>
+<wire x1="55" y1="95.6" x2="55" y2="88.6" width="0.8" layer="41"/>
+<wire x1="48" y1="95.6" x2="48" y2="88.6" width="0.8" layer="41"/>
+<wire x1="41" y1="95.6" x2="41" y2="88.6" width="0.8" layer="41"/>
+<wire x1="34" y1="95.6" x2="34" y2="88.6" width="0.8" layer="41"/>
+<wire x1="27" y1="95.6" x2="27" y2="88.6" width="0.8" layer="41"/>
+<wire x1="20" y1="95.6" x2="20" y2="88.6" width="0.8" layer="41"/>
+<wire x1="13" y1="95.6" x2="13" y2="88.6" width="0.8" layer="41"/>
+<wire x1="6" y1="95.6" x2="6" y2="88.6" width="0.8" layer="41"/>
+<text x="8" y="91.8" size="0.6" layer="21" font="vector" ratio="15">MEgli, L1, 2021-11-28</text>
+<text x="5.29999375" y="93.0999875" size="0.6" layer="125" font="vector">LED1</text>
+<text x="12.30000625" y="93.0999875" size="0.6" layer="125" font="vector">LED2</text>
+<text x="19.199990625" y="93.0999875" size="0.6" layer="125" font="vector">LED3</text>
+<text x="26.200003125" y="93.0999875" size="0.6" layer="125" font="vector">LED4</text>
+<text x="33.2999875" y="93.0999875" size="0.6" layer="125" font="vector">LED5</text>
+<text x="40.3" y="93.0999875" size="0.6" layer="125" font="vector">LED6</text>
+<text x="47.2000125" y="93.1999875" size="0.6" layer="125" font="vector">LED7</text>
+<text x="54.299996875" y="93.0999875" size="0.6" layer="125" font="vector">LED8</text>
+<text x="5.29999375" y="89.099996875" size="0.6" layer="125" font="vector">LED9</text>
+<text x="12.20000625" y="89.099996875" size="0.6" layer="125" font="vector">LED10</text>
+<text x="19.199990625" y="89.099996875" size="0.6" layer="125" font="vector">LED11</text>
+<text x="26.200003125" y="89.099996875" size="0.6" layer="125" font="vector">LED12</text>
+<text x="33.1999875" y="89.199996875" size="0.6" layer="125" font="vector">LED13</text>
+<text x="40.2" y="89.199996875" size="0.6" layer="125" font="vector">LED14</text>
+<text x="47.2000125" y="89.199996875" size="0.6" layer="125" font="vector">LED15</text>
+<text x="54.199996875" y="89.199996875" size="0.6" layer="125" font="vector">LED16</text>
+<text x="2.1" y="94.800009375" size="0.6" layer="126" font="vector" rot="MR0">TP1</text>
+<text x="2.1" y="92.299990625" size="0.6" layer="126" font="vector" rot="MR0">TP2</text>
+<text x="2.1" y="89.79999375" size="0.6" layer="126" font="vector" rot="MR0">TP3</text>
+<text x="55.099996875" y="94.800009375" size="0.6" layer="126" font="vector" rot="MR0">TP4</text>
+<text x="55.099996875" y="92.299990625" size="0.6" layer="126" font="vector" rot="MR0">TP5</text>
+<text x="55.099996875" y="89.79999375" size="0.6" layer="126" font="vector" rot="MR0">TP6</text>
+<wire x1="6.4" y1="88.2" x2="7.4" y2="87.2" width="0" layer="20" curve="-90"/>
+<wire x1="7.4" y1="87.2" x2="6.4" y2="86.2" width="0" layer="20" curve="-90"/>
+<wire x1="13.6" y1="86.2" x2="12.6" y2="87.2" width="0" layer="20" curve="-90"/>
+<wire x1="12.6" y1="87.2" x2="13.6" y2="88.2" width="0" layer="20" curve="-90"/>
+<wire x1="54.6" y1="87.2" x2="55.6" y2="88.2" width="0" layer="20" curve="-90"/>
+<wire x1="55.6" y1="86.2" x2="54.6" y2="87.2" width="0" layer="20" curve="-90"/>
+<wire x1="49.4" y1="87.2" x2="48.4" y2="86.2" width="0" layer="20" curve="-90"/>
+<wire x1="48.4" y1="88.2" x2="49.4" y2="87.2" width="0" layer="20" curve="-90"/>
+<wire x1="3" y1="96" x2="59" y2="96" width="0" layer="20"/>
+</plain>
+<libraries>
+<library name="megli">
+<packages>
+<package name="LED_JE2835">
+<smd name="2" x="1" y="0" dx="2.8" dy="2.2" layer="1" rot="R90"/>
+<smd name="1" x="-1.5" y="0" dx="2.8" dy="1.2" layer="1" rot="R90"/>
+<wire x1="-1.75" y1="1.4" x2="-1.75" y2="-1.4" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="-1.4" x2="1.3" y2="-1.4" width="0.1" layer="21"/>
+<wire x1="1.3" y1="-1.4" x2="1.75" y2="-1.4" width="0.1" layer="21"/>
+<wire x1="1.75" y1="-1.4" x2="1.75" y2="-0.95" width="0.1" layer="21"/>
+<wire x1="1.75" y1="-0.95" x2="1.75" y2="1.4" width="0.1" layer="21"/>
+<wire x1="1.75" y1="1.4" x2="-1.75" y2="1.4" width="0.1" layer="21"/>
+<wire x1="1.3" y1="-1.4" x2="1.75" y2="-0.95" width="0.1" layer="21"/>
+<wire x1="1.2" y1="-1.2" x2="1.5" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="1.5" y1="-0.9" x2="1.5" y2="0.9" width="0.1" layer="21"/>
+<wire x1="1.5" y1="0.9" x2="1.2" y2="1.2" width="0.1" layer="21"/>
+<wire x1="1.2" y1="1.2" x2="-1.2" y2="1.2" width="0.1" layer="21"/>
+<wire x1="-1.2" y1="1.2" x2="-1.5" y2="0.9" width="0.1" layer="21"/>
+<wire x1="-1.5" y1="0.9" x2="-1.5" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="-1.5" y1="-0.9" x2="-1.2" y2="-1.2" width="0.1" layer="21"/>
+<wire x1="-1.2" y1="-1.2" x2="1.2" y2="-1.2" width="0.1" layer="21"/>
+<text x="-1.2" y="1.7" size="0.6" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.3" y="-0.3" size="0.6" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-0.4" y1="0.7" x2="0.2" y2="0.7" width="0.1" layer="25"/>
+<wire x1="0.2" y1="0.7" x2="0.4" y2="0.7" width="0.1" layer="25"/>
+<wire x1="0.2" y1="0.4" x2="0.2" y2="0.7" width="0.1" layer="25"/>
+<wire x1="0.2" y1="0.7" x2="0.2" y2="1" width="0.1" layer="25"/>
+<wire x1="-0.2" y1="1" x2="-0.2" y2="0.4" width="0.1" layer="25"/>
+<wire x1="-0.2" y1="1" x2="0.2" y2="0.7" width="0.1" layer="25"/>
+<wire x1="0.2" y1="0.7" x2="-0.2" y2="0.4" width="0.1" layer="25"/>
+</package>
+<package name="PAD_4X2.2MM">
+<smd name="1" x="0" y="0" dx="4" dy="2.2" layer="1" roundness="50" rot="R180" cream="no"/>
+<text x="2.4" y="0.2" size="0.6" layer="25" font="vector">&gt;NAME</text>
+<text x="2.4" y="-0.6" size="0.6" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-1.4" y1="1" x2="1.4" y2="1" width="0.1" layer="21"/>
+<wire x1="1.4" y1="-1" x2="-1.4" y2="-1" width="0.1" layer="21"/>
+<wire x1="-1.9" y1="-0.5" x2="-1.9" y2="0.5" width="0.1" layer="21"/>
+<wire x1="-1.4" y1="1" x2="-1.9" y2="0.5" width="0.1" layer="21" curve="90"/>
+<wire x1="-1.9" y1="-0.5" x2="-1.4" y2="-1" width="0.1" layer="21" curve="90"/>
+<wire x1="1.4" y1="-1" x2="1.9" y2="-0.5" width="0.1" layer="21" curve="90"/>
+<wire x1="1.9" y1="0.5" x2="1.4" y2="1" width="0.1" layer="21" curve="90"/>
+<wire x1="1.9" y1="0.5" x2="1.9" y2="-0.5" width="0.1" layer="21"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="jlcpcb-2layers *">
+<description language="en">&lt;b&gt;JLCPCB design rules (2 layers)&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Board thickness: 1.6mm&lt;/li&gt;
+&lt;li&gt;Copper weight: 1oz (35um)&lt;/li&gt;
+&lt;li&gt;Note: annular ring aren't minimal&lt;/li&gt;
+&lt;/ul&gt;</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.6mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="5mil"/>
+<param name="mdWireVia" value="5mil"/>
+<param name="mdPadPad" value="5mil"/>
+<param name="mdPadVia" value="5mil"/>
+<param name="mdViaVia" value="5mil"/>
+<param name="mdSmdPad" value="5mil"/>
+<param name="mdSmdVia" value="5mil"/>
+<param name="mdSmdSmd" value="5mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="0.2mm"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="5mil"/>
+<param name="msDrill" value="0.3mm"/>
+<param name="msMicroVia" value="0.3mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.4"/>
+<param name="rvPadInner" value="0"/>
+<param name="rvPadBottom" value="0.4"/>
+<param name="rvViaOuter" value="0"/>
+<param name="rvViaInner" value="0"/>
+<param name="rvMicroViaOuter" value="0"/>
+<param name="rvMicroViaInner" value="0"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="80mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="80mil"/>
+<param name="rlMinViaOuter" value="3mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="3mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0.4mm"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
+<param name="checkAngle" value="1"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="LED1" library="megli" package="LED_JE2835" value="" x="6.5" y="5.9" smashed="yes">
+<attribute name="NAME" x="5.3" y="4.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="5.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED10" library="megli" package="LED_JE2835" value="" x="13.5" y="1.9" smashed="yes">
+<attribute name="NAME" x="12.2" y="0.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="1.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED11" library="megli" package="LED_JE2835" value="" x="20.5" y="1.9" smashed="yes">
+<attribute name="NAME" x="19.2" y="0.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="1.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED12" library="megli" package="LED_JE2835" value="" x="27.5" y="1.9" smashed="yes">
+<attribute name="NAME" x="26.2" y="0.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="1.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED13" library="megli" package="LED_JE2835" value="" x="34.5" y="1.9" smashed="yes">
+<attribute name="NAME" x="33.2" y="1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="1.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED14" library="megli" package="LED_JE2835" value="" x="41.5" y="1.9" smashed="yes">
+<attribute name="NAME" x="40.2" y="1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="1.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED15" library="megli" package="LED_JE2835" value="" x="48.5" y="1.9" smashed="yes">
+<attribute name="NAME" x="47.2" y="1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="1.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED16" library="megli" package="LED_JE2835" value="" x="55.5" y="1.9" smashed="yes">
+<attribute name="NAME" x="54.2" y="1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="1.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED2" library="megli" package="LED_JE2835" value="" x="13.5" y="5.9" smashed="yes">
+<attribute name="NAME" x="12.3" y="4.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="5.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED3" library="megli" package="LED_JE2835" value="" x="20.5" y="5.9" smashed="yes">
+<attribute name="NAME" x="19.2" y="4.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="5.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED4" library="megli" package="LED_JE2835" value="" x="27.5" y="5.9" smashed="yes">
+<attribute name="NAME" x="26.2" y="4.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="5.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED5" library="megli" package="LED_JE2835" value="" x="34.5" y="5.9" smashed="yes">
+<attribute name="NAME" x="33.3" y="4.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="5.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED6" library="megli" package="LED_JE2835" value="" x="41.5" y="5.9" smashed="yes">
+<attribute name="NAME" x="40.3" y="4.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="5.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED7" library="megli" package="LED_JE2835" value="" x="48.5" y="5.9" smashed="yes">
+<attribute name="NAME" x="47.2" y="5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="5.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED8" library="megli" package="LED_JE2835" value="" x="55.5" y="5.9" smashed="yes">
+<attribute name="NAME" x="54.3" y="4.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="5.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED9" library="megli" package="LED_JE2835" value="" x="6.5" y="1.9" smashed="yes">
+<attribute name="NAME" x="5.3" y="0.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="1.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="TP1" library="megli" package="PAD_4X2.2MM" value="A1" x="4.5" y="6.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="6.6" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="5.8" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP2" library="megli" package="PAD_4X2.2MM" value="KCOM" x="4.5" y="3.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="4.1" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="3.3" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP3" library="megli" package="PAD_4X2.2MM" value="A2" x="4.5" y="1.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="1.6" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="0.8" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP4" library="megli" package="PAD_4X2.2MM" value="A1" x="57.5" y="6.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="6.6" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="5.8" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP5" library="megli" package="PAD_4X2.2MM" value="KCOM" x="57.5" y="3.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="4.1" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="3.3" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP6" library="megli" package="PAD_4X2.2MM" value="A2" x="57.5" y="1.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="1.6" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="0.8" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="LED17" library="megli" package="LED_JE2835" value="" x="6.5" y="15.7" smashed="yes">
+<attribute name="NAME" x="5.3" y="14.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="15.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED18" library="megli" package="LED_JE2835" value="" x="13.5" y="11.7" smashed="yes">
+<attribute name="NAME" x="12.2" y="10.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="11.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED19" library="megli" package="LED_JE2835" value="" x="20.5" y="11.7" smashed="yes">
+<attribute name="NAME" x="19.2" y="10.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="11.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED20" library="megli" package="LED_JE2835" value="" x="27.5" y="11.7" smashed="yes">
+<attribute name="NAME" x="26.2" y="10.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="11.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED21" library="megli" package="LED_JE2835" value="" x="34.5" y="11.7" smashed="yes">
+<attribute name="NAME" x="33.2" y="10.8" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="11.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED22" library="megli" package="LED_JE2835" value="" x="41.5" y="11.7" smashed="yes">
+<attribute name="NAME" x="40.2" y="10.8" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="11.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED23" library="megli" package="LED_JE2835" value="" x="48.5" y="11.7" smashed="yes">
+<attribute name="NAME" x="47.2" y="10.8" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="11.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED24" library="megli" package="LED_JE2835" value="" x="55.5" y="11.7" smashed="yes">
+<attribute name="NAME" x="54.2" y="10.8" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="11.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED25" library="megli" package="LED_JE2835" value="" x="13.5" y="15.7" smashed="yes">
+<attribute name="NAME" x="12.3" y="14.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="15.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED26" library="megli" package="LED_JE2835" value="" x="20.5" y="15.7" smashed="yes">
+<attribute name="NAME" x="19.2" y="14.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="15.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED27" library="megli" package="LED_JE2835" value="" x="27.5" y="15.7" smashed="yes">
+<attribute name="NAME" x="26.2" y="14.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="15.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED28" library="megli" package="LED_JE2835" value="" x="34.5" y="15.7" smashed="yes">
+<attribute name="NAME" x="33.3" y="14.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="15.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED29" library="megli" package="LED_JE2835" value="" x="41.5" y="15.7" smashed="yes">
+<attribute name="NAME" x="40.3" y="14.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="15.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED30" library="megli" package="LED_JE2835" value="" x="48.5" y="15.7" smashed="yes">
+<attribute name="NAME" x="47.2" y="14.8" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="15.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED31" library="megli" package="LED_JE2835" value="" x="55.5" y="15.7" smashed="yes">
+<attribute name="NAME" x="54.3" y="14.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="15.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED32" library="megli" package="LED_JE2835" value="" x="6.5" y="11.7" smashed="yes">
+<attribute name="NAME" x="5.3" y="10.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="11.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="TP7" library="megli" package="PAD_4X2.2MM" value="A1" x="4.5" y="16.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="16.4" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="15.6" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP8" library="megli" package="PAD_4X2.2MM" value="KCOM" x="4.5" y="13.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="13.9" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="13.1" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP9" library="megli" package="PAD_4X2.2MM" value="A2" x="4.5" y="11.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="11.4" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="10.6" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP10" library="megli" package="PAD_4X2.2MM" value="A1" x="57.5" y="16.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="16.4" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="15.6" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP11" library="megli" package="PAD_4X2.2MM" value="KCOM" x="57.5" y="13.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="13.9" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="13.1" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP12" library="megli" package="PAD_4X2.2MM" value="A2" x="57.5" y="11.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="11.4" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="10.6" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="LED33" library="megli" package="LED_JE2835" value="" x="6.5" y="25.5" smashed="yes">
+<attribute name="NAME" x="5.3" y="24.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="25.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED34" library="megli" package="LED_JE2835" value="" x="13.5" y="21.5" smashed="yes">
+<attribute name="NAME" x="12.2" y="20.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="21.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED35" library="megli" package="LED_JE2835" value="" x="20.5" y="21.5" smashed="yes">
+<attribute name="NAME" x="19.2" y="20.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="21.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED36" library="megli" package="LED_JE2835" value="" x="27.5" y="21.5" smashed="yes">
+<attribute name="NAME" x="26.2" y="20.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="21.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED37" library="megli" package="LED_JE2835" value="" x="34.5" y="21.5" smashed="yes">
+<attribute name="NAME" x="33.2" y="20.6" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="21.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED38" library="megli" package="LED_JE2835" value="" x="41.5" y="21.5" smashed="yes">
+<attribute name="NAME" x="40.2" y="20.6" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="21.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED39" library="megli" package="LED_JE2835" value="" x="48.5" y="21.5" smashed="yes">
+<attribute name="NAME" x="47.2" y="20.6" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="21.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED40" library="megli" package="LED_JE2835" value="" x="55.5" y="21.5" smashed="yes">
+<attribute name="NAME" x="54.2" y="20.6" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="21.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED41" library="megli" package="LED_JE2835" value="" x="13.5" y="25.5" smashed="yes">
+<attribute name="NAME" x="12.3" y="24.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="25.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED42" library="megli" package="LED_JE2835" value="" x="20.5" y="25.5" smashed="yes">
+<attribute name="NAME" x="19.2" y="24.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="25.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED43" library="megli" package="LED_JE2835" value="" x="27.5" y="25.5" smashed="yes">
+<attribute name="NAME" x="26.2" y="24.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="25.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED44" library="megli" package="LED_JE2835" value="" x="34.5" y="25.5" smashed="yes">
+<attribute name="NAME" x="33.3" y="24.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="25.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED45" library="megli" package="LED_JE2835" value="" x="41.5" y="25.5" smashed="yes">
+<attribute name="NAME" x="40.3" y="24.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="25.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED46" library="megli" package="LED_JE2835" value="" x="48.5" y="25.5" smashed="yes">
+<attribute name="NAME" x="47.2" y="24.6" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="25.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED47" library="megli" package="LED_JE2835" value="" x="55.5" y="25.5" smashed="yes">
+<attribute name="NAME" x="54.3" y="24.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="25.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED48" library="megli" package="LED_JE2835" value="" x="6.5" y="21.5" smashed="yes">
+<attribute name="NAME" x="5.3" y="20.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="21.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="TP13" library="megli" package="PAD_4X2.2MM" value="A1" x="4.5" y="26" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="26.2" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="25.4" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP14" library="megli" package="PAD_4X2.2MM" value="KCOM" x="4.5" y="23.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="23.7" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="22.9" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP15" library="megli" package="PAD_4X2.2MM" value="A2" x="4.5" y="21" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="21.2" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="20.4" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP16" library="megli" package="PAD_4X2.2MM" value="A1" x="57.5" y="26" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="26.2" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="25.4" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP17" library="megli" package="PAD_4X2.2MM" value="KCOM" x="57.5" y="23.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="23.7" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="22.9" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP18" library="megli" package="PAD_4X2.2MM" value="A2" x="57.5" y="21" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="21.2" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="20.4" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="LED49" library="megli" package="LED_JE2835" value="" x="6.5" y="35.3" smashed="yes">
+<attribute name="NAME" x="5.3" y="34.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="35" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED50" library="megli" package="LED_JE2835" value="" x="13.5" y="31.3" smashed="yes">
+<attribute name="NAME" x="12.2" y="30.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="31" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED51" library="megli" package="LED_JE2835" value="" x="20.5" y="31.3" smashed="yes">
+<attribute name="NAME" x="19.2" y="30.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="31" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED52" library="megli" package="LED_JE2835" value="" x="27.5" y="31.3" smashed="yes">
+<attribute name="NAME" x="26.2" y="30.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="31" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED53" library="megli" package="LED_JE2835" value="" x="34.5" y="31.3" smashed="yes">
+<attribute name="NAME" x="33.2" y="30.4" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="31" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED54" library="megli" package="LED_JE2835" value="" x="41.5" y="31.3" smashed="yes">
+<attribute name="NAME" x="40.2" y="30.4" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="31" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED55" library="megli" package="LED_JE2835" value="" x="48.5" y="31.3" smashed="yes">
+<attribute name="NAME" x="47.2" y="30.4" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="31" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED56" library="megli" package="LED_JE2835" value="" x="55.5" y="31.3" smashed="yes">
+<attribute name="NAME" x="54.2" y="30.4" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="31" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED57" library="megli" package="LED_JE2835" value="" x="13.5" y="35.3" smashed="yes">
+<attribute name="NAME" x="12.3" y="34.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="35" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED58" library="megli" package="LED_JE2835" value="" x="20.5" y="35.3" smashed="yes">
+<attribute name="NAME" x="19.2" y="34.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="35" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED59" library="megli" package="LED_JE2835" value="" x="27.5" y="35.3" smashed="yes">
+<attribute name="NAME" x="26.2" y="34.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="35" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED60" library="megli" package="LED_JE2835" value="" x="34.5" y="35.3" smashed="yes">
+<attribute name="NAME" x="33.3" y="34.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="35" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED61" library="megli" package="LED_JE2835" value="" x="41.5" y="35.3" smashed="yes">
+<attribute name="NAME" x="40.3" y="34.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="35" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED62" library="megli" package="LED_JE2835" value="" x="48.5" y="35.3" smashed="yes">
+<attribute name="NAME" x="47.2" y="34.4" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="35" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED63" library="megli" package="LED_JE2835" value="" x="55.5" y="35.3" smashed="yes">
+<attribute name="NAME" x="54.3" y="34.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="35" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED64" library="megli" package="LED_JE2835" value="" x="6.5" y="31.3" smashed="yes">
+<attribute name="NAME" x="5.3" y="30.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="31" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="TP19" library="megli" package="PAD_4X2.2MM" value="A1" x="4.5" y="35.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="36" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="35.2" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP20" library="megli" package="PAD_4X2.2MM" value="KCOM" x="4.5" y="33.3" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="33.5" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="32.7" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP21" library="megli" package="PAD_4X2.2MM" value="A2" x="4.5" y="30.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="31" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="30.2" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP22" library="megli" package="PAD_4X2.2MM" value="A1" x="57.5" y="35.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="36" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="35.2" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP23" library="megli" package="PAD_4X2.2MM" value="KCOM" x="57.5" y="33.3" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="33.5" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="32.7" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP24" library="megli" package="PAD_4X2.2MM" value="A2" x="57.5" y="30.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="31" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="30.2" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="LED65" library="megli" package="LED_JE2835" value="" x="6.5" y="45.1" smashed="yes">
+<attribute name="NAME" x="5.3" y="44.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="44.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED66" library="megli" package="LED_JE2835" value="" x="13.5" y="41.1" smashed="yes">
+<attribute name="NAME" x="12.2" y="40.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="40.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED67" library="megli" package="LED_JE2835" value="" x="20.5" y="41.1" smashed="yes">
+<attribute name="NAME" x="19.2" y="40.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="40.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED68" library="megli" package="LED_JE2835" value="" x="27.5" y="41.1" smashed="yes">
+<attribute name="NAME" x="26.2" y="40.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="40.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED69" library="megli" package="LED_JE2835" value="" x="34.5" y="41.1" smashed="yes">
+<attribute name="NAME" x="33.2" y="40.2" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="40.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED70" library="megli" package="LED_JE2835" value="" x="41.5" y="41.1" smashed="yes">
+<attribute name="NAME" x="40.2" y="40.2" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="40.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED71" library="megli" package="LED_JE2835" value="" x="48.5" y="41.1" smashed="yes">
+<attribute name="NAME" x="47.2" y="40.2" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="40.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED72" library="megli" package="LED_JE2835" value="" x="55.5" y="41.1" smashed="yes">
+<attribute name="NAME" x="54.2" y="40.2" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="40.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED73" library="megli" package="LED_JE2835" value="" x="13.5" y="45.1" smashed="yes">
+<attribute name="NAME" x="12.3" y="44.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="44.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED74" library="megli" package="LED_JE2835" value="" x="20.5" y="45.1" smashed="yes">
+<attribute name="NAME" x="19.2" y="44.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="44.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED75" library="megli" package="LED_JE2835" value="" x="27.5" y="45.1" smashed="yes">
+<attribute name="NAME" x="26.2" y="44.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="44.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED76" library="megli" package="LED_JE2835" value="" x="34.5" y="45.1" smashed="yes">
+<attribute name="NAME" x="33.3" y="44.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="44.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED77" library="megli" package="LED_JE2835" value="" x="41.5" y="45.1" smashed="yes">
+<attribute name="NAME" x="40.3" y="44.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="44.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED78" library="megli" package="LED_JE2835" value="" x="48.5" y="45.1" smashed="yes">
+<attribute name="NAME" x="47.2" y="44.2" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="44.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED79" library="megli" package="LED_JE2835" value="" x="55.5" y="45.1" smashed="yes">
+<attribute name="NAME" x="54.3" y="44.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="44.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED80" library="megli" package="LED_JE2835" value="" x="6.5" y="41.1" smashed="yes">
+<attribute name="NAME" x="5.3" y="40.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="40.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="TP25" library="megli" package="PAD_4X2.2MM" value="A1" x="4.5" y="45.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="45.8" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="45" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP26" library="megli" package="PAD_4X2.2MM" value="KCOM" x="4.5" y="43.1" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="43.3" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="42.5" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP27" library="megli" package="PAD_4X2.2MM" value="A2" x="4.5" y="40.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="40.8" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="40" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP28" library="megli" package="PAD_4X2.2MM" value="A1" x="57.5" y="45.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="45.8" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="45" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP29" library="megli" package="PAD_4X2.2MM" value="KCOM" x="57.5" y="43.1" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="43.3" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="42.5" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP30" library="megli" package="PAD_4X2.2MM" value="A2" x="57.5" y="40.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="40.8" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="40" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="LED81" library="megli" package="LED_JE2835" value="" x="6.5" y="54.9" smashed="yes">
+<attribute name="NAME" x="5.3" y="53.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="54.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED82" library="megli" package="LED_JE2835" value="" x="13.5" y="50.9" smashed="yes">
+<attribute name="NAME" x="12.2" y="49.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="50.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED83" library="megli" package="LED_JE2835" value="" x="20.5" y="50.9" smashed="yes">
+<attribute name="NAME" x="19.2" y="49.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="50.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED84" library="megli" package="LED_JE2835" value="" x="27.5" y="50.9" smashed="yes">
+<attribute name="NAME" x="26.2" y="49.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="50.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED85" library="megli" package="LED_JE2835" value="" x="34.5" y="50.9" smashed="yes">
+<attribute name="NAME" x="33.2" y="50" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="50.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED86" library="megli" package="LED_JE2835" value="" x="41.5" y="50.9" smashed="yes">
+<attribute name="NAME" x="40.2" y="50" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="50.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED87" library="megli" package="LED_JE2835" value="" x="48.5" y="50.9" smashed="yes">
+<attribute name="NAME" x="47.2" y="50" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="50.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED88" library="megli" package="LED_JE2835" value="" x="55.5" y="50.9" smashed="yes">
+<attribute name="NAME" x="54.2" y="50" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="50.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED89" library="megli" package="LED_JE2835" value="" x="13.5" y="54.9" smashed="yes">
+<attribute name="NAME" x="12.3" y="53.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="54.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED90" library="megli" package="LED_JE2835" value="" x="20.5" y="54.9" smashed="yes">
+<attribute name="NAME" x="19.2" y="53.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="54.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED91" library="megli" package="LED_JE2835" value="" x="27.5" y="54.9" smashed="yes">
+<attribute name="NAME" x="26.2" y="53.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="54.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED92" library="megli" package="LED_JE2835" value="" x="34.5" y="54.9" smashed="yes">
+<attribute name="NAME" x="33.3" y="53.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="54.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED93" library="megli" package="LED_JE2835" value="" x="41.5" y="54.9" smashed="yes">
+<attribute name="NAME" x="40.3" y="53.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="54.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED94" library="megli" package="LED_JE2835" value="" x="48.5" y="54.9" smashed="yes">
+<attribute name="NAME" x="47.2" y="54" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="54.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED95" library="megli" package="LED_JE2835" value="" x="55.5" y="54.9" smashed="yes">
+<attribute name="NAME" x="54.3" y="53.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="54.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED96" library="megli" package="LED_JE2835" value="" x="6.5" y="50.9" smashed="yes">
+<attribute name="NAME" x="5.3" y="49.9" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="50.6" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="TP31" library="megli" package="PAD_4X2.2MM" value="A1" x="4.5" y="55.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="55.6" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="54.8" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP32" library="megli" package="PAD_4X2.2MM" value="KCOM" x="4.5" y="52.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="53.1" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="52.3" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP33" library="megli" package="PAD_4X2.2MM" value="A2" x="4.5" y="50.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="50.6" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="49.8" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP34" library="megli" package="PAD_4X2.2MM" value="A1" x="57.5" y="55.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="55.6" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="54.8" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP35" library="megli" package="PAD_4X2.2MM" value="KCOM" x="57.5" y="52.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="53.1" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="52.3" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP36" library="megli" package="PAD_4X2.2MM" value="A2" x="57.5" y="50.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="50.6" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="49.8" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="LED97" library="megli" package="LED_JE2835" value="" x="6.5" y="64.7" smashed="yes">
+<attribute name="NAME" x="5.3" y="63.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="64.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED98" library="megli" package="LED_JE2835" value="" x="13.5" y="60.7" smashed="yes">
+<attribute name="NAME" x="12.2" y="59.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="60.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED99" library="megli" package="LED_JE2835" value="" x="20.5" y="60.7" smashed="yes">
+<attribute name="NAME" x="19.2" y="59.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="60.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED100" library="megli" package="LED_JE2835" value="" x="27.5" y="60.7" smashed="yes">
+<attribute name="NAME" x="26.2" y="59.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="60.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED101" library="megli" package="LED_JE2835" value="" x="34.5" y="60.7" smashed="yes">
+<attribute name="NAME" x="33.2" y="59.8" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="60.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED102" library="megli" package="LED_JE2835" value="" x="41.5" y="60.7" smashed="yes">
+<attribute name="NAME" x="40.2" y="59.8" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="60.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED103" library="megli" package="LED_JE2835" value="" x="48.5" y="60.7" smashed="yes">
+<attribute name="NAME" x="47.2" y="59.8" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="60.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED104" library="megli" package="LED_JE2835" value="" x="55.5" y="60.7" smashed="yes">
+<attribute name="NAME" x="54.2" y="59.8" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="60.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED105" library="megli" package="LED_JE2835" value="" x="13.5" y="64.7" smashed="yes">
+<attribute name="NAME" x="12.3" y="63.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="64.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED106" library="megli" package="LED_JE2835" value="" x="20.5" y="64.7" smashed="yes">
+<attribute name="NAME" x="19.2" y="63.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="64.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED107" library="megli" package="LED_JE2835" value="" x="27.5" y="64.7" smashed="yes">
+<attribute name="NAME" x="26.2" y="63.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="64.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED108" library="megli" package="LED_JE2835" value="" x="34.5" y="64.7" smashed="yes">
+<attribute name="NAME" x="33.3" y="63.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="64.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED109" library="megli" package="LED_JE2835" value="" x="41.5" y="64.7" smashed="yes">
+<attribute name="NAME" x="40.3" y="63.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="64.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED110" library="megli" package="LED_JE2835" value="" x="48.5" y="64.7" smashed="yes">
+<attribute name="NAME" x="47.2" y="63.8" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="64.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED111" library="megli" package="LED_JE2835" value="" x="55.5" y="64.7" smashed="yes">
+<attribute name="NAME" x="54.3" y="63.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="64.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED112" library="megli" package="LED_JE2835" value="" x="6.5" y="60.7" smashed="yes">
+<attribute name="NAME" x="5.3" y="59.7" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="60.4" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="TP37" library="megli" package="PAD_4X2.2MM" value="A1" x="4.5" y="65.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="65.4" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="64.6" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP38" library="megli" package="PAD_4X2.2MM" value="KCOM" x="4.5" y="62.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="62.9" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="62.1" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP39" library="megli" package="PAD_4X2.2MM" value="A2" x="4.5" y="60.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="60.4" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="59.6" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP40" library="megli" package="PAD_4X2.2MM" value="A1" x="57.5" y="65.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="65.4" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="64.6" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP41" library="megli" package="PAD_4X2.2MM" value="KCOM" x="57.5" y="62.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="62.9" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="62.1" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP42" library="megli" package="PAD_4X2.2MM" value="A2" x="57.5" y="60.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="60.4" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="59.6" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="LED113" library="megli" package="LED_JE2835" value="" x="6.5" y="74.5" smashed="yes">
+<attribute name="NAME" x="5.3" y="73.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="74.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED114" library="megli" package="LED_JE2835" value="" x="13.5" y="70.5" smashed="yes">
+<attribute name="NAME" x="12.2" y="69.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="70.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED115" library="megli" package="LED_JE2835" value="" x="20.5" y="70.5" smashed="yes">
+<attribute name="NAME" x="19.2" y="69.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="70.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED116" library="megli" package="LED_JE2835" value="" x="27.5" y="70.5" smashed="yes">
+<attribute name="NAME" x="26.2" y="69.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="70.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED117" library="megli" package="LED_JE2835" value="" x="34.5" y="70.5" smashed="yes">
+<attribute name="NAME" x="33.2" y="69.6" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="70.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED118" library="megli" package="LED_JE2835" value="" x="41.5" y="70.5" smashed="yes">
+<attribute name="NAME" x="40.2" y="69.6" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="70.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED119" library="megli" package="LED_JE2835" value="" x="48.5" y="70.5" smashed="yes">
+<attribute name="NAME" x="47.2" y="69.6" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="70.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED120" library="megli" package="LED_JE2835" value="" x="55.5" y="70.5" smashed="yes">
+<attribute name="NAME" x="54.2" y="69.6" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="70.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED121" library="megli" package="LED_JE2835" value="" x="13.5" y="74.5" smashed="yes">
+<attribute name="NAME" x="12.3" y="73.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="74.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED122" library="megli" package="LED_JE2835" value="" x="20.5" y="74.5" smashed="yes">
+<attribute name="NAME" x="19.2" y="73.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="74.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED123" library="megli" package="LED_JE2835" value="" x="27.5" y="74.5" smashed="yes">
+<attribute name="NAME" x="26.2" y="73.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="74.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED124" library="megli" package="LED_JE2835" value="" x="34.5" y="74.5" smashed="yes">
+<attribute name="NAME" x="33.3" y="73.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="74.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED125" library="megli" package="LED_JE2835" value="" x="41.5" y="74.5" smashed="yes">
+<attribute name="NAME" x="40.3" y="73.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="74.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED126" library="megli" package="LED_JE2835" value="" x="48.5" y="74.5" smashed="yes">
+<attribute name="NAME" x="47.2" y="73.6" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="74.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED127" library="megli" package="LED_JE2835" value="" x="55.5" y="74.5" smashed="yes">
+<attribute name="NAME" x="54.3" y="73.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="74.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED128" library="megli" package="LED_JE2835" value="" x="6.5" y="70.5" smashed="yes">
+<attribute name="NAME" x="5.3" y="69.5" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="70.2" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="TP43" library="megli" package="PAD_4X2.2MM" value="A1" x="4.5" y="75" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="75.2" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="74.4" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP44" library="megli" package="PAD_4X2.2MM" value="KCOM" x="4.5" y="72.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="72.7" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="71.9" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP45" library="megli" package="PAD_4X2.2MM" value="A2" x="4.5" y="70" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="70.2" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="69.4" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP46" library="megli" package="PAD_4X2.2MM" value="A1" x="57.5" y="75" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="75.2" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="74.4" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP47" library="megli" package="PAD_4X2.2MM" value="KCOM" x="57.5" y="72.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="72.7" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="71.9" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP48" library="megli" package="PAD_4X2.2MM" value="A2" x="57.5" y="70" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="70.2" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="69.4" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="LED129" library="megli" package="LED_JE2835" value="" x="6.5" y="84.3" smashed="yes">
+<attribute name="NAME" x="5.3" y="83.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="84" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED130" library="megli" package="LED_JE2835" value="" x="13.5" y="80.3" smashed="yes">
+<attribute name="NAME" x="12.2" y="79.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="80" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED131" library="megli" package="LED_JE2835" value="" x="20.5" y="80.3" smashed="yes">
+<attribute name="NAME" x="19.2" y="79.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="80" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED132" library="megli" package="LED_JE2835" value="" x="27.5" y="80.3" smashed="yes">
+<attribute name="NAME" x="26.2" y="79.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="80" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED133" library="megli" package="LED_JE2835" value="" x="34.5" y="80.3" smashed="yes">
+<attribute name="NAME" x="33.2" y="79.4" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="80" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED134" library="megli" package="LED_JE2835" value="" x="41.5" y="80.3" smashed="yes">
+<attribute name="NAME" x="40.2" y="79.4" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="80" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED135" library="megli" package="LED_JE2835" value="" x="48.5" y="80.3" smashed="yes">
+<attribute name="NAME" x="47.2" y="79.4" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="80" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED136" library="megli" package="LED_JE2835" value="" x="55.5" y="80.3" smashed="yes">
+<attribute name="NAME" x="54.2" y="79.4" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="80" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED137" library="megli" package="LED_JE2835" value="" x="13.5" y="84.3" smashed="yes">
+<attribute name="NAME" x="12.3" y="83.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="84" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED138" library="megli" package="LED_JE2835" value="" x="20.5" y="84.3" smashed="yes">
+<attribute name="NAME" x="19.2" y="83.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="84" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED139" library="megli" package="LED_JE2835" value="" x="27.5" y="84.3" smashed="yes">
+<attribute name="NAME" x="26.2" y="83.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="84" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED140" library="megli" package="LED_JE2835" value="" x="34.5" y="84.3" smashed="yes">
+<attribute name="NAME" x="33.3" y="83.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="84" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED141" library="megli" package="LED_JE2835" value="" x="41.5" y="84.3" smashed="yes">
+<attribute name="NAME" x="40.3" y="83.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="84" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED142" library="megli" package="LED_JE2835" value="" x="48.5" y="84.3" smashed="yes">
+<attribute name="NAME" x="47.2" y="83.4" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="84" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED143" library="megli" package="LED_JE2835" value="" x="55.5" y="84.3" smashed="yes">
+<attribute name="NAME" x="54.3" y="83.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="84" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED144" library="megli" package="LED_JE2835" value="" x="6.5" y="80.3" smashed="yes">
+<attribute name="NAME" x="5.3" y="79.3" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="80" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="TP49" library="megli" package="PAD_4X2.2MM" value="A1" x="4.5" y="84.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="85" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="84.2" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP50" library="megli" package="PAD_4X2.2MM" value="KCOM" x="4.5" y="82.3" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="82.5" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="81.7" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP51" library="megli" package="PAD_4X2.2MM" value="A2" x="4.5" y="79.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="80" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="79.2" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP52" library="megli" package="PAD_4X2.2MM" value="A1" x="57.5" y="84.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="85" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="84.2" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP53" library="megli" package="PAD_4X2.2MM" value="KCOM" x="57.5" y="82.3" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="82.5" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="81.7" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP54" library="megli" package="PAD_4X2.2MM" value="A2" x="57.5" y="79.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="80" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="79.2" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="LED145" library="megli" package="LED_JE2835" value="" x="6.5" y="94.1" smashed="yes">
+<attribute name="NAME" x="5.3" y="93.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="93.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED146" library="megli" package="LED_JE2835" value="" x="13.5" y="90.1" smashed="yes">
+<attribute name="NAME" x="12.2" y="89.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="89.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED147" library="megli" package="LED_JE2835" value="" x="20.5" y="90.1" smashed="yes">
+<attribute name="NAME" x="19.2" y="89.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="89.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED148" library="megli" package="LED_JE2835" value="" x="27.5" y="90.1" smashed="yes">
+<attribute name="NAME" x="26.2" y="89.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="89.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED149" library="megli" package="LED_JE2835" value="" x="34.5" y="90.1" smashed="yes">
+<attribute name="NAME" x="33.2" y="89.2" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="89.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED150" library="megli" package="LED_JE2835" value="" x="41.5" y="90.1" smashed="yes">
+<attribute name="NAME" x="40.2" y="89.2" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="89.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED151" library="megli" package="LED_JE2835" value="" x="48.5" y="90.1" smashed="yes">
+<attribute name="NAME" x="47.2" y="89.2" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="89.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED152" library="megli" package="LED_JE2835" value="" x="55.5" y="90.1" smashed="yes">
+<attribute name="NAME" x="54.2" y="89.2" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="89.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED153" library="megli" package="LED_JE2835" value="" x="13.5" y="94.1" smashed="yes">
+<attribute name="NAME" x="12.3" y="93.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.2" y="93.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED154" library="megli" package="LED_JE2835" value="" x="20.5" y="94.1" smashed="yes">
+<attribute name="NAME" x="19.2" y="93.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.2" y="93.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED155" library="megli" package="LED_JE2835" value="" x="27.5" y="94.1" smashed="yes">
+<attribute name="NAME" x="26.2" y="93.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.2" y="93.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED156" library="megli" package="LED_JE2835" value="" x="34.5" y="94.1" smashed="yes">
+<attribute name="NAME" x="33.3" y="93.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="33.2" y="93.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED157" library="megli" package="LED_JE2835" value="" x="41.5" y="94.1" smashed="yes">
+<attribute name="NAME" x="40.3" y="93.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.2" y="93.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED158" library="megli" package="LED_JE2835" value="" x="48.5" y="94.1" smashed="yes">
+<attribute name="NAME" x="47.2" y="93.2" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.2" y="93.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED159" library="megli" package="LED_JE2835" value="" x="55.5" y="94.1" smashed="yes">
+<attribute name="NAME" x="54.3" y="93.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="54.2" y="93.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="LED160" library="megli" package="LED_JE2835" value="" x="6.5" y="90.1" smashed="yes">
+<attribute name="NAME" x="5.3" y="89.1" size="0.6" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.2" y="89.8" size="0.6" layer="27" font="vector"/>
+</element>
+<element name="TP55" library="megli" package="PAD_4X2.2MM" value="A1" x="4.5" y="94.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="94.8" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="94" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP56" library="megli" package="PAD_4X2.2MM" value="KCOM" x="4.5" y="92.1" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="92.3" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="91.5" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP57" library="megli" package="PAD_4X2.2MM" value="A2" x="4.5" y="89.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.1" y="89.8" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="2.1" y="89" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP58" library="megli" package="PAD_4X2.2MM" value="A1" x="57.5" y="94.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="94.8" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="94" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP59" library="megli" package="PAD_4X2.2MM" value="KCOM" x="57.5" y="92.1" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="92.3" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="91.5" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="TP60" library="megli" package="PAD_4X2.2MM" value="A2" x="57.5" y="89.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="55.1" y="89.8" size="0.6" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.1" y="89" size="0.6" layer="28" font="vector" rot="MR0"/>
+</element>
+</elements>
+<signals>
+<signal name="N$1">
+<contactref element="LED1" pad="2"/>
+<contactref element="LED2" pad="1"/>
+<wire x1="7.5" y1="5.9" x2="8.3" y2="5.9" width="1" layer="1"/>
+<wire x1="8.3" y1="5.9" x2="11.2" y2="5.9" width="2.8" layer="1"/>
+<wire x1="11.2" y1="5.9" x2="12" y2="5.9" width="1" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="LED2" pad="2"/>
+<contactref element="LED3" pad="1"/>
+<wire x1="14.5" y1="5.9" x2="15.1" y2="5.9" width="1" layer="1"/>
+<wire x1="15.1" y1="5.9" x2="18.2" y2="5.9" width="2.8" layer="1"/>
+<wire x1="18.2" y1="5.9" x2="19" y2="5.9" width="1" layer="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="LED3" pad="2"/>
+<contactref element="LED4" pad="1"/>
+<wire x1="21.5" y1="5.9" x2="22.5" y2="5.9" width="1" layer="1"/>
+<wire x1="22.5" y1="5.9" x2="25.2" y2="5.9" width="2.8" layer="1"/>
+<wire x1="25.2" y1="5.9" x2="26" y2="5.9" width="1" layer="1"/>
+</signal>
+<signal name="N$4">
+<contactref element="LED4" pad="2"/>
+<contactref element="LED5" pad="1"/>
+<wire x1="28.5" y1="5.9" x2="29.2" y2="5.9" width="1" layer="1"/>
+<wire x1="29.2" y1="5.9" x2="32.2" y2="5.9" width="2.8" layer="1"/>
+<wire x1="32.2" y1="5.9" x2="33" y2="5.9" width="1" layer="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="LED5" pad="2"/>
+<contactref element="LED6" pad="1"/>
+<wire x1="35.5" y1="5.9" x2="36.5" y2="5.9" width="1" layer="1"/>
+<wire x1="36.5" y1="5.9" x2="39.2" y2="5.9" width="2.8" layer="1"/>
+<wire x1="39.2" y1="5.9" x2="40" y2="5.9" width="1" layer="1"/>
+</signal>
+<signal name="N$6">
+<contactref element="LED6" pad="2"/>
+<contactref element="LED7" pad="1"/>
+<wire x1="42.5" y1="5.9" x2="43" y2="5.9" width="1" layer="1"/>
+<wire x1="43" y1="5.9" x2="46.2" y2="5.9" width="2.8" layer="1"/>
+<wire x1="46.2" y1="5.9" x2="47" y2="5.9" width="1" layer="1"/>
+</signal>
+<signal name="N$7">
+<contactref element="LED7" pad="2"/>
+<contactref element="LED8" pad="1"/>
+<wire x1="49.5" y1="5.9" x2="50.1" y2="5.9" width="1" layer="1"/>
+<wire x1="50.1" y1="5.9" x2="53.2" y2="5.9" width="2.8" layer="1"/>
+<wire x1="53.2" y1="5.9" x2="54" y2="5.9" width="1" layer="1"/>
+</signal>
+<signal name="N$8">
+<contactref element="LED9" pad="2"/>
+<contactref element="LED10" pad="1"/>
+<wire x1="7.5" y1="1.9" x2="7.8" y2="1.9" width="1" layer="1"/>
+<wire x1="7.8" y1="1.9" x2="11.2" y2="1.9" width="2.8" layer="1"/>
+<wire x1="11.2" y1="1.9" x2="12" y2="1.9" width="1" layer="1"/>
+</signal>
+<signal name="N$9">
+<contactref element="LED10" pad="2"/>
+<contactref element="LED11" pad="1"/>
+<wire x1="19" y1="1.9" x2="18.2" y2="1.9" width="1" layer="1"/>
+<wire x1="18.2" y1="1.9" x2="15.2" y2="1.9" width="2.8" layer="1"/>
+<wire x1="15.2" y1="1.9" x2="14.5" y2="1.9" width="1" layer="1"/>
+</signal>
+<signal name="N$10">
+<contactref element="LED11" pad="2"/>
+<contactref element="LED12" pad="1"/>
+<wire x1="26" y1="1.9" x2="25.2" y2="1.9" width="1" layer="1"/>
+<wire x1="25.2" y1="1.9" x2="22.5" y2="1.9" width="2.8" layer="1"/>
+<wire x1="22.5" y1="1.9" x2="21.5" y2="1.9" width="1" layer="1"/>
+</signal>
+<signal name="N$11">
+<contactref element="LED12" pad="2"/>
+<contactref element="LED13" pad="1"/>
+<wire x1="33" y1="1.9" x2="32.2" y2="1.9" width="1" layer="1"/>
+<wire x1="32.2" y1="1.9" x2="29.4" y2="1.9" width="2.8" layer="1"/>
+<wire x1="29.4" y1="1.9" x2="28.5" y2="1.9" width="1" layer="1"/>
+</signal>
+<signal name="N$12">
+<contactref element="LED13" pad="2"/>
+<contactref element="LED14" pad="1"/>
+<wire x1="40" y1="1.9" x2="39.2" y2="1.9" width="1" layer="1"/>
+<wire x1="39.2" y1="1.9" x2="36.3" y2="1.9" width="2.8" layer="1"/>
+<wire x1="36.3" y1="1.9" x2="35.5" y2="1.9" width="1" layer="1"/>
+</signal>
+<signal name="N$13">
+<contactref element="LED14" pad="2"/>
+<contactref element="LED15" pad="1"/>
+<wire x1="47" y1="1.9" x2="46.2" y2="1.9" width="1" layer="1"/>
+<wire x1="46.2" y1="1.9" x2="43.1" y2="1.9" width="2.8" layer="1"/>
+<wire x1="43.1" y1="1.9" x2="42.5" y2="1.9" width="1" layer="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="LED15" pad="2"/>
+<contactref element="LED16" pad="1"/>
+<wire x1="54" y1="1.9" x2="53.2" y2="1.9" width="1" layer="1"/>
+<wire x1="53.2" y1="1.9" x2="50.1" y2="1.9" width="2.8" layer="1"/>
+<wire x1="50.1" y1="1.9" x2="49.5" y2="1.9" width="1" layer="1"/>
+</signal>
+<signal name="KCOM">
+<contactref element="LED8" pad="2"/>
+<contactref element="LED16" pad="2"/>
+<contactref element="TP2" pad="1"/>
+<contactref element="TP5" pad="1"/>
+<via x="58.3" y="4.5" extent="1-16" drill="0.3"/>
+<via x="58.3" y="3.3" extent="1-16" drill="0.3"/>
+<wire x1="57.5" y1="3.9" x2="4.5" y2="3.9" width="2.2" layer="16"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="55.5" y="7.2"/>
+<vertex x="55.5" y="0.6"/>
+<vertex x="58.6" y="0.6"/>
+<vertex x="58.6" y="7.2"/>
+</polygon>
+<wire x1="57.5" y1="3.9" x2="58.3" y2="3.9" width="0.2" layer="16"/>
+<wire x1="58.3" y1="3.9" x2="58.3" y2="4.5" width="0.2" layer="16"/>
+<via x="57.6" y="3.9" extent="1-16" drill="0.3"/>
+</signal>
+<signal name="A1">
+<contactref element="LED1" pad="1"/>
+<contactref element="TP1" pad="1"/>
+<contactref element="TP4" pad="1"/>
+<via x="3.6" y="5.6" extent="1-16" drill="0.3"/>
+<via x="3.6" y="7" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="7.2"/>
+<vertex x="3.4" y="7.2"/>
+<vertex x="3.4" y="5.2"/>
+<vertex x="4" y="4.6"/>
+<vertex x="5.5" y="4.6"/>
+</polygon>
+<wire x1="4.5" y1="6.4" x2="57.5" y2="6.4" width="2.2" layer="16"/>
+<wire x1="4.5" y1="6.4" x2="3.7" y2="6.4" width="0.2" layer="16"/>
+<via x="3.9" y="6.3" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="6.4" x2="3.9" y2="6.4" width="1" layer="16"/>
+<wire x1="3.9" y1="6.4" x2="3.9" y2="6.3" width="1" layer="16"/>
+</signal>
+<signal name="A2">
+<contactref element="LED9" pad="1"/>
+<contactref element="TP3" pad="1"/>
+<contactref element="TP6" pad="1"/>
+<via x="3.6" y="2.2" extent="1-16" drill="0.3"/>
+<via x="3.6" y="0.8" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="3.2"/>
+<vertex x="5.5" y="0.6"/>
+<vertex x="3.4" y="0.6"/>
+<vertex x="3.4" y="2.6"/>
+<vertex x="4" y="3.2"/>
+</polygon>
+<wire x1="4.5" y1="1.4" x2="57.5" y2="1.4" width="2.2" layer="16"/>
+<wire x1="4.5" y1="1.4" x2="3.7" y2="1.4" width="0.2" layer="16"/>
+<via x="3.8" y="1.5" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="1.4" x2="3.8" y2="1.4" width="1" layer="16"/>
+<wire x1="3.8" y1="1.4" x2="3.8" y2="1.5" width="1" layer="16"/>
+</signal>
+<signal name="N$15">
+<contactref element="LED17" pad="2"/>
+<contactref element="LED25" pad="1"/>
+<wire x1="7.5" y1="15.7" x2="8.3" y2="15.7" width="1" layer="1"/>
+<wire x1="8.3" y1="15.7" x2="11.2" y2="15.7" width="2.8" layer="1"/>
+<wire x1="11.2" y1="15.7" x2="12" y2="15.7" width="1" layer="1"/>
+</signal>
+<signal name="N$16">
+<contactref element="LED25" pad="2"/>
+<contactref element="LED26" pad="1"/>
+<wire x1="14.5" y1="15.7" x2="15.1" y2="15.7" width="1" layer="1"/>
+<wire x1="15.1" y1="15.7" x2="18.2" y2="15.7" width="2.8" layer="1"/>
+<wire x1="18.2" y1="15.7" x2="19" y2="15.7" width="1" layer="1"/>
+</signal>
+<signal name="N$17">
+<contactref element="LED26" pad="2"/>
+<contactref element="LED27" pad="1"/>
+<wire x1="21.5" y1="15.7" x2="22.5" y2="15.7" width="1" layer="1"/>
+<wire x1="22.5" y1="15.7" x2="25.2" y2="15.7" width="2.8" layer="1"/>
+<wire x1="25.2" y1="15.7" x2="26" y2="15.7" width="1" layer="1"/>
+</signal>
+<signal name="N$18">
+<contactref element="LED27" pad="2"/>
+<contactref element="LED28" pad="1"/>
+<wire x1="28.5" y1="15.7" x2="29.2" y2="15.7" width="1" layer="1"/>
+<wire x1="29.2" y1="15.7" x2="32.2" y2="15.7" width="2.8" layer="1"/>
+<wire x1="32.2" y1="15.7" x2="33" y2="15.7" width="1" layer="1"/>
+</signal>
+<signal name="N$19">
+<contactref element="LED28" pad="2"/>
+<contactref element="LED29" pad="1"/>
+<wire x1="35.5" y1="15.7" x2="36.5" y2="15.7" width="1" layer="1"/>
+<wire x1="36.5" y1="15.7" x2="39.2" y2="15.7" width="2.8" layer="1"/>
+<wire x1="39.2" y1="15.7" x2="40" y2="15.7" width="1" layer="1"/>
+</signal>
+<signal name="N$20">
+<contactref element="LED29" pad="2"/>
+<contactref element="LED30" pad="1"/>
+<wire x1="42.5" y1="15.7" x2="43" y2="15.7" width="1" layer="1"/>
+<wire x1="43" y1="15.7" x2="46.2" y2="15.7" width="2.8" layer="1"/>
+<wire x1="46.2" y1="15.7" x2="47" y2="15.7" width="1" layer="1"/>
+</signal>
+<signal name="N$21">
+<contactref element="LED30" pad="2"/>
+<contactref element="LED31" pad="1"/>
+<wire x1="49.5" y1="15.7" x2="50.1" y2="15.7" width="1" layer="1"/>
+<wire x1="50.1" y1="15.7" x2="53.2" y2="15.7" width="2.8" layer="1"/>
+<wire x1="53.2" y1="15.7" x2="54" y2="15.7" width="1" layer="1"/>
+</signal>
+<signal name="N$22">
+<contactref element="LED32" pad="2"/>
+<contactref element="LED18" pad="1"/>
+<wire x1="7.5" y1="11.7" x2="7.8" y2="11.7" width="1" layer="1"/>
+<wire x1="7.8" y1="11.7" x2="11.2" y2="11.7" width="2.8" layer="1"/>
+<wire x1="11.2" y1="11.7" x2="12" y2="11.7" width="1" layer="1"/>
+</signal>
+<signal name="N$23">
+<contactref element="LED18" pad="2"/>
+<contactref element="LED19" pad="1"/>
+<wire x1="19" y1="11.7" x2="18.2" y2="11.7" width="1" layer="1"/>
+<wire x1="18.2" y1="11.7" x2="15.2" y2="11.7" width="2.8" layer="1"/>
+<wire x1="15.2" y1="11.7" x2="14.5" y2="11.7" width="1" layer="1"/>
+</signal>
+<signal name="N$24">
+<contactref element="LED19" pad="2"/>
+<contactref element="LED20" pad="1"/>
+<wire x1="26" y1="11.7" x2="25.2" y2="11.7" width="1" layer="1"/>
+<wire x1="25.2" y1="11.7" x2="22.5" y2="11.7" width="2.8" layer="1"/>
+<wire x1="22.5" y1="11.7" x2="21.5" y2="11.7" width="1" layer="1"/>
+</signal>
+<signal name="N$25">
+<contactref element="LED20" pad="2"/>
+<contactref element="LED21" pad="1"/>
+<wire x1="33" y1="11.7" x2="32.2" y2="11.7" width="1" layer="1"/>
+<wire x1="32.2" y1="11.7" x2="29.4" y2="11.7" width="2.8" layer="1"/>
+<wire x1="29.4" y1="11.7" x2="28.5" y2="11.7" width="1" layer="1"/>
+</signal>
+<signal name="N$26">
+<contactref element="LED21" pad="2"/>
+<contactref element="LED22" pad="1"/>
+<wire x1="40" y1="11.7" x2="39.2" y2="11.7" width="1" layer="1"/>
+<wire x1="39.2" y1="11.7" x2="36.3" y2="11.7" width="2.8" layer="1"/>
+<wire x1="36.3" y1="11.7" x2="35.5" y2="11.7" width="1" layer="1"/>
+</signal>
+<signal name="N$27">
+<contactref element="LED22" pad="2"/>
+<contactref element="LED23" pad="1"/>
+<wire x1="47" y1="11.7" x2="46.2" y2="11.7" width="1" layer="1"/>
+<wire x1="46.2" y1="11.7" x2="43.1" y2="11.7" width="2.8" layer="1"/>
+<wire x1="43.1" y1="11.7" x2="42.5" y2="11.7" width="1" layer="1"/>
+</signal>
+<signal name="N$28">
+<contactref element="LED23" pad="2"/>
+<contactref element="LED24" pad="1"/>
+<wire x1="54" y1="11.7" x2="53.2" y2="11.7" width="1" layer="1"/>
+<wire x1="53.2" y1="11.7" x2="50.1" y2="11.7" width="2.8" layer="1"/>
+<wire x1="50.1" y1="11.7" x2="49.5" y2="11.7" width="1" layer="1"/>
+</signal>
+<signal name="KCOM1">
+<contactref element="LED31" pad="2"/>
+<contactref element="LED24" pad="2"/>
+<contactref element="TP8" pad="1"/>
+<contactref element="TP11" pad="1"/>
+<via x="58.3" y="14.3" extent="1-16" drill="0.3"/>
+<via x="58.3" y="13.1" extent="1-16" drill="0.3"/>
+<wire x1="57.5" y1="13.7" x2="4.5" y2="13.7" width="2.2" layer="16"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="55.5" y="17"/>
+<vertex x="55.5" y="10.4"/>
+<vertex x="58.6" y="10.4"/>
+<vertex x="58.6" y="17"/>
+</polygon>
+<wire x1="57.5" y1="13.7" x2="58.3" y2="13.7" width="0.2" layer="16"/>
+<wire x1="58.3" y1="13.7" x2="58.3" y2="14.3" width="0.2" layer="16"/>
+<via x="57.6" y="13.7" extent="1-16" drill="0.3"/>
+</signal>
+<signal name="A3">
+<contactref element="LED17" pad="1"/>
+<contactref element="TP7" pad="1"/>
+<contactref element="TP10" pad="1"/>
+<via x="3.6" y="15.4" extent="1-16" drill="0.3"/>
+<via x="3.6" y="16.8" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="17"/>
+<vertex x="3.4" y="17"/>
+<vertex x="3.4" y="15"/>
+<vertex x="4" y="14.4"/>
+<vertex x="5.5" y="14.4"/>
+</polygon>
+<wire x1="4.5" y1="16.2" x2="57.5" y2="16.2" width="2.2" layer="16"/>
+<wire x1="4.5" y1="16.2" x2="3.7" y2="16.2" width="0.2" layer="16"/>
+<via x="3.9" y="16.1" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="16.2" x2="3.9" y2="16.2" width="1" layer="16"/>
+<wire x1="3.9" y1="16.2" x2="3.9" y2="16.1" width="1" layer="16"/>
+</signal>
+<signal name="A4">
+<contactref element="LED32" pad="1"/>
+<contactref element="TP9" pad="1"/>
+<contactref element="TP12" pad="1"/>
+<via x="3.6" y="12" extent="1-16" drill="0.3"/>
+<via x="3.6" y="10.6" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="13"/>
+<vertex x="5.5" y="10.4"/>
+<vertex x="3.4" y="10.4"/>
+<vertex x="3.4" y="12.4"/>
+<vertex x="4" y="13"/>
+</polygon>
+<wire x1="4.5" y1="11.2" x2="57.5" y2="11.2" width="2.2" layer="16"/>
+<wire x1="4.5" y1="11.2" x2="3.7" y2="11.2" width="0.2" layer="16"/>
+<via x="3.8" y="11.3" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="11.2" x2="3.8" y2="11.2" width="1" layer="16"/>
+<wire x1="3.8" y1="11.2" x2="3.8" y2="11.3" width="1" layer="16"/>
+</signal>
+<signal name="N$29">
+<contactref element="LED33" pad="2"/>
+<contactref element="LED41" pad="1"/>
+<wire x1="7.5" y1="25.5" x2="8.3" y2="25.5" width="1" layer="1"/>
+<wire x1="8.3" y1="25.5" x2="11.2" y2="25.5" width="2.8" layer="1"/>
+<wire x1="11.2" y1="25.5" x2="12" y2="25.5" width="1" layer="1"/>
+</signal>
+<signal name="N$30">
+<contactref element="LED41" pad="2"/>
+<contactref element="LED42" pad="1"/>
+<wire x1="14.5" y1="25.5" x2="15.1" y2="25.5" width="1" layer="1"/>
+<wire x1="15.1" y1="25.5" x2="18.2" y2="25.5" width="2.8" layer="1"/>
+<wire x1="18.2" y1="25.5" x2="19" y2="25.5" width="1" layer="1"/>
+</signal>
+<signal name="N$31">
+<contactref element="LED42" pad="2"/>
+<contactref element="LED43" pad="1"/>
+<wire x1="21.5" y1="25.5" x2="22.5" y2="25.5" width="1" layer="1"/>
+<wire x1="22.5" y1="25.5" x2="25.2" y2="25.5" width="2.8" layer="1"/>
+<wire x1="25.2" y1="25.5" x2="26" y2="25.5" width="1" layer="1"/>
+</signal>
+<signal name="N$32">
+<contactref element="LED43" pad="2"/>
+<contactref element="LED44" pad="1"/>
+<wire x1="28.5" y1="25.5" x2="29.2" y2="25.5" width="1" layer="1"/>
+<wire x1="29.2" y1="25.5" x2="32.2" y2="25.5" width="2.8" layer="1"/>
+<wire x1="32.2" y1="25.5" x2="33" y2="25.5" width="1" layer="1"/>
+</signal>
+<signal name="N$33">
+<contactref element="LED44" pad="2"/>
+<contactref element="LED45" pad="1"/>
+<wire x1="35.5" y1="25.5" x2="36.5" y2="25.5" width="1" layer="1"/>
+<wire x1="36.5" y1="25.5" x2="39.2" y2="25.5" width="2.8" layer="1"/>
+<wire x1="39.2" y1="25.5" x2="40" y2="25.5" width="1" layer="1"/>
+</signal>
+<signal name="N$34">
+<contactref element="LED45" pad="2"/>
+<contactref element="LED46" pad="1"/>
+<wire x1="42.5" y1="25.5" x2="43" y2="25.5" width="1" layer="1"/>
+<wire x1="43" y1="25.5" x2="46.2" y2="25.5" width="2.8" layer="1"/>
+<wire x1="46.2" y1="25.5" x2="47" y2="25.5" width="1" layer="1"/>
+</signal>
+<signal name="N$35">
+<contactref element="LED46" pad="2"/>
+<contactref element="LED47" pad="1"/>
+<wire x1="49.5" y1="25.5" x2="50.1" y2="25.5" width="1" layer="1"/>
+<wire x1="50.1" y1="25.5" x2="53.2" y2="25.5" width="2.8" layer="1"/>
+<wire x1="53.2" y1="25.5" x2="54" y2="25.5" width="1" layer="1"/>
+</signal>
+<signal name="N$36">
+<contactref element="LED48" pad="2"/>
+<contactref element="LED34" pad="1"/>
+<wire x1="7.5" y1="21.5" x2="7.8" y2="21.5" width="1" layer="1"/>
+<wire x1="7.8" y1="21.5" x2="11.2" y2="21.5" width="2.8" layer="1"/>
+<wire x1="11.2" y1="21.5" x2="12" y2="21.5" width="1" layer="1"/>
+</signal>
+<signal name="N$37">
+<contactref element="LED34" pad="2"/>
+<contactref element="LED35" pad="1"/>
+<wire x1="19" y1="21.5" x2="18.2" y2="21.5" width="1" layer="1"/>
+<wire x1="18.2" y1="21.5" x2="15.2" y2="21.5" width="2.8" layer="1"/>
+<wire x1="15.2" y1="21.5" x2="14.5" y2="21.5" width="1" layer="1"/>
+</signal>
+<signal name="N$38">
+<contactref element="LED35" pad="2"/>
+<contactref element="LED36" pad="1"/>
+<wire x1="26" y1="21.5" x2="25.2" y2="21.5" width="1" layer="1"/>
+<wire x1="25.2" y1="21.5" x2="22.5" y2="21.5" width="2.8" layer="1"/>
+<wire x1="22.5" y1="21.5" x2="21.5" y2="21.5" width="1" layer="1"/>
+</signal>
+<signal name="N$39">
+<contactref element="LED36" pad="2"/>
+<contactref element="LED37" pad="1"/>
+<wire x1="33" y1="21.5" x2="32.2" y2="21.5" width="1" layer="1"/>
+<wire x1="32.2" y1="21.5" x2="29.4" y2="21.5" width="2.8" layer="1"/>
+<wire x1="29.4" y1="21.5" x2="28.5" y2="21.5" width="1" layer="1"/>
+</signal>
+<signal name="N$40">
+<contactref element="LED37" pad="2"/>
+<contactref element="LED38" pad="1"/>
+<wire x1="40" y1="21.5" x2="39.2" y2="21.5" width="1" layer="1"/>
+<wire x1="39.2" y1="21.5" x2="36.3" y2="21.5" width="2.8" layer="1"/>
+<wire x1="36.3" y1="21.5" x2="35.5" y2="21.5" width="1" layer="1"/>
+</signal>
+<signal name="N$41">
+<contactref element="LED38" pad="2"/>
+<contactref element="LED39" pad="1"/>
+<wire x1="47" y1="21.5" x2="46.2" y2="21.5" width="1" layer="1"/>
+<wire x1="46.2" y1="21.5" x2="43.1" y2="21.5" width="2.8" layer="1"/>
+<wire x1="43.1" y1="21.5" x2="42.5" y2="21.5" width="1" layer="1"/>
+</signal>
+<signal name="N$42">
+<contactref element="LED39" pad="2"/>
+<contactref element="LED40" pad="1"/>
+<wire x1="54" y1="21.5" x2="53.2" y2="21.5" width="1" layer="1"/>
+<wire x1="53.2" y1="21.5" x2="50.1" y2="21.5" width="2.8" layer="1"/>
+<wire x1="50.1" y1="21.5" x2="49.5" y2="21.5" width="1" layer="1"/>
+</signal>
+<signal name="KCOM2">
+<contactref element="LED47" pad="2"/>
+<contactref element="LED40" pad="2"/>
+<contactref element="TP14" pad="1"/>
+<contactref element="TP17" pad="1"/>
+<via x="58.3" y="24.1" extent="1-16" drill="0.3"/>
+<via x="58.3" y="22.9" extent="1-16" drill="0.3"/>
+<wire x1="57.5" y1="23.5" x2="4.5" y2="23.5" width="2.2" layer="16"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="55.5" y="26.8"/>
+<vertex x="55.5" y="20.2"/>
+<vertex x="58.6" y="20.2"/>
+<vertex x="58.6" y="26.8"/>
+</polygon>
+<wire x1="57.5" y1="23.5" x2="58.3" y2="23.5" width="0.2" layer="16"/>
+<wire x1="58.3" y1="23.5" x2="58.3" y2="24.1" width="0.2" layer="16"/>
+<via x="57.6" y="23.5" extent="1-16" drill="0.3"/>
+</signal>
+<signal name="A5">
+<contactref element="LED33" pad="1"/>
+<contactref element="TP13" pad="1"/>
+<contactref element="TP16" pad="1"/>
+<via x="3.6" y="25.2" extent="1-16" drill="0.3"/>
+<via x="3.6" y="26.6" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="26.8"/>
+<vertex x="3.4" y="26.8"/>
+<vertex x="3.4" y="24.8"/>
+<vertex x="4" y="24.2"/>
+<vertex x="5.5" y="24.2"/>
+</polygon>
+<wire x1="4.5" y1="26" x2="57.5" y2="26" width="2.2" layer="16"/>
+<wire x1="4.5" y1="26" x2="3.7" y2="26" width="0.2" layer="16"/>
+<via x="3.9" y="25.9" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="26" x2="3.9" y2="26" width="1" layer="16"/>
+<wire x1="3.9" y1="26" x2="3.9" y2="25.9" width="1" layer="16"/>
+</signal>
+<signal name="A6">
+<contactref element="LED48" pad="1"/>
+<contactref element="TP15" pad="1"/>
+<contactref element="TP18" pad="1"/>
+<via x="3.6" y="21.8" extent="1-16" drill="0.3"/>
+<via x="3.6" y="20.4" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="22.8"/>
+<vertex x="5.5" y="20.2"/>
+<vertex x="3.4" y="20.2"/>
+<vertex x="3.4" y="22.2"/>
+<vertex x="4" y="22.8"/>
+</polygon>
+<wire x1="4.5" y1="21" x2="57.5" y2="21" width="2.2" layer="16"/>
+<wire x1="4.5" y1="21" x2="3.7" y2="21" width="0.2" layer="16"/>
+<via x="3.8" y="21.1" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="21" x2="3.8" y2="21" width="1" layer="16"/>
+<wire x1="3.8" y1="21" x2="3.8" y2="21.1" width="1" layer="16"/>
+</signal>
+<signal name="N$43">
+<contactref element="LED49" pad="2"/>
+<contactref element="LED57" pad="1"/>
+<wire x1="7.5" y1="35.3" x2="8.3" y2="35.3" width="1" layer="1"/>
+<wire x1="8.3" y1="35.3" x2="11.2" y2="35.3" width="2.8" layer="1"/>
+<wire x1="11.2" y1="35.3" x2="12" y2="35.3" width="1" layer="1"/>
+</signal>
+<signal name="N$44">
+<contactref element="LED57" pad="2"/>
+<contactref element="LED58" pad="1"/>
+<wire x1="14.5" y1="35.3" x2="15.1" y2="35.3" width="1" layer="1"/>
+<wire x1="15.1" y1="35.3" x2="18.2" y2="35.3" width="2.8" layer="1"/>
+<wire x1="18.2" y1="35.3" x2="19" y2="35.3" width="1" layer="1"/>
+</signal>
+<signal name="N$45">
+<contactref element="LED58" pad="2"/>
+<contactref element="LED59" pad="1"/>
+<wire x1="21.5" y1="35.3" x2="22.5" y2="35.3" width="1" layer="1"/>
+<wire x1="22.5" y1="35.3" x2="25.2" y2="35.3" width="2.8" layer="1"/>
+<wire x1="25.2" y1="35.3" x2="26" y2="35.3" width="1" layer="1"/>
+</signal>
+<signal name="N$46">
+<contactref element="LED59" pad="2"/>
+<contactref element="LED60" pad="1"/>
+<wire x1="28.5" y1="35.3" x2="29.2" y2="35.3" width="1" layer="1"/>
+<wire x1="29.2" y1="35.3" x2="32.2" y2="35.3" width="2.8" layer="1"/>
+<wire x1="32.2" y1="35.3" x2="33" y2="35.3" width="1" layer="1"/>
+</signal>
+<signal name="N$47">
+<contactref element="LED60" pad="2"/>
+<contactref element="LED61" pad="1"/>
+<wire x1="35.5" y1="35.3" x2="36.5" y2="35.3" width="1" layer="1"/>
+<wire x1="36.5" y1="35.3" x2="39.2" y2="35.3" width="2.8" layer="1"/>
+<wire x1="39.2" y1="35.3" x2="40" y2="35.3" width="1" layer="1"/>
+</signal>
+<signal name="N$48">
+<contactref element="LED61" pad="2"/>
+<contactref element="LED62" pad="1"/>
+<wire x1="42.5" y1="35.3" x2="43" y2="35.3" width="1" layer="1"/>
+<wire x1="43" y1="35.3" x2="46.2" y2="35.3" width="2.8" layer="1"/>
+<wire x1="46.2" y1="35.3" x2="47" y2="35.3" width="1" layer="1"/>
+</signal>
+<signal name="N$49">
+<contactref element="LED62" pad="2"/>
+<contactref element="LED63" pad="1"/>
+<wire x1="49.5" y1="35.3" x2="50.1" y2="35.3" width="1" layer="1"/>
+<wire x1="50.1" y1="35.3" x2="53.2" y2="35.3" width="2.8" layer="1"/>
+<wire x1="53.2" y1="35.3" x2="54" y2="35.3" width="1" layer="1"/>
+</signal>
+<signal name="N$50">
+<contactref element="LED64" pad="2"/>
+<contactref element="LED50" pad="1"/>
+<wire x1="7.5" y1="31.3" x2="7.8" y2="31.3" width="1" layer="1"/>
+<wire x1="7.8" y1="31.3" x2="11.2" y2="31.3" width="2.8" layer="1"/>
+<wire x1="11.2" y1="31.3" x2="12" y2="31.3" width="1" layer="1"/>
+</signal>
+<signal name="N$51">
+<contactref element="LED50" pad="2"/>
+<contactref element="LED51" pad="1"/>
+<wire x1="19" y1="31.3" x2="18.2" y2="31.3" width="1" layer="1"/>
+<wire x1="18.2" y1="31.3" x2="15.2" y2="31.3" width="2.8" layer="1"/>
+<wire x1="15.2" y1="31.3" x2="14.5" y2="31.3" width="1" layer="1"/>
+</signal>
+<signal name="N$52">
+<contactref element="LED51" pad="2"/>
+<contactref element="LED52" pad="1"/>
+<wire x1="26" y1="31.3" x2="25.2" y2="31.3" width="1" layer="1"/>
+<wire x1="25.2" y1="31.3" x2="22.5" y2="31.3" width="2.8" layer="1"/>
+<wire x1="22.5" y1="31.3" x2="21.5" y2="31.3" width="1" layer="1"/>
+</signal>
+<signal name="N$53">
+<contactref element="LED52" pad="2"/>
+<contactref element="LED53" pad="1"/>
+<wire x1="33" y1="31.3" x2="32.2" y2="31.3" width="1" layer="1"/>
+<wire x1="32.2" y1="31.3" x2="29.4" y2="31.3" width="2.8" layer="1"/>
+<wire x1="29.4" y1="31.3" x2="28.5" y2="31.3" width="1" layer="1"/>
+</signal>
+<signal name="N$54">
+<contactref element="LED53" pad="2"/>
+<contactref element="LED54" pad="1"/>
+<wire x1="40" y1="31.3" x2="39.2" y2="31.3" width="1" layer="1"/>
+<wire x1="39.2" y1="31.3" x2="36.3" y2="31.3" width="2.8" layer="1"/>
+<wire x1="36.3" y1="31.3" x2="35.5" y2="31.3" width="1" layer="1"/>
+</signal>
+<signal name="N$55">
+<contactref element="LED54" pad="2"/>
+<contactref element="LED55" pad="1"/>
+<wire x1="47" y1="31.3" x2="46.2" y2="31.3" width="1" layer="1"/>
+<wire x1="46.2" y1="31.3" x2="43.1" y2="31.3" width="2.8" layer="1"/>
+<wire x1="43.1" y1="31.3" x2="42.5" y2="31.3" width="1" layer="1"/>
+</signal>
+<signal name="N$56">
+<contactref element="LED55" pad="2"/>
+<contactref element="LED56" pad="1"/>
+<wire x1="54" y1="31.3" x2="53.2" y2="31.3" width="1" layer="1"/>
+<wire x1="53.2" y1="31.3" x2="50.1" y2="31.3" width="2.8" layer="1"/>
+<wire x1="50.1" y1="31.3" x2="49.5" y2="31.3" width="1" layer="1"/>
+</signal>
+<signal name="KCOM3">
+<contactref element="LED63" pad="2"/>
+<contactref element="LED56" pad="2"/>
+<contactref element="TP20" pad="1"/>
+<contactref element="TP23" pad="1"/>
+<via x="58.3" y="33.9" extent="1-16" drill="0.3"/>
+<via x="58.3" y="32.7" extent="1-16" drill="0.3"/>
+<wire x1="57.5" y1="33.3" x2="4.5" y2="33.3" width="2.2" layer="16"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="55.5" y="36.6"/>
+<vertex x="55.5" y="30"/>
+<vertex x="58.6" y="30"/>
+<vertex x="58.6" y="36.6"/>
+</polygon>
+<wire x1="57.5" y1="33.3" x2="58.3" y2="33.3" width="0.2" layer="16"/>
+<wire x1="58.3" y1="33.3" x2="58.3" y2="33.9" width="0.2" layer="16"/>
+<via x="57.6" y="33.3" extent="1-16" drill="0.3"/>
+</signal>
+<signal name="A7">
+<contactref element="LED49" pad="1"/>
+<contactref element="TP19" pad="1"/>
+<contactref element="TP22" pad="1"/>
+<via x="3.6" y="35" extent="1-16" drill="0.3"/>
+<via x="3.6" y="36.4" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="36.6"/>
+<vertex x="3.4" y="36.6"/>
+<vertex x="3.4" y="34.6"/>
+<vertex x="4" y="34"/>
+<vertex x="5.5" y="34"/>
+</polygon>
+<wire x1="4.5" y1="35.8" x2="57.5" y2="35.8" width="2.2" layer="16"/>
+<wire x1="4.5" y1="35.8" x2="3.7" y2="35.8" width="0.2" layer="16"/>
+<via x="3.9" y="35.7" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="35.8" x2="3.9" y2="35.8" width="1" layer="16"/>
+<wire x1="3.9" y1="35.8" x2="3.9" y2="35.7" width="1" layer="16"/>
+</signal>
+<signal name="A8">
+<contactref element="LED64" pad="1"/>
+<contactref element="TP21" pad="1"/>
+<contactref element="TP24" pad="1"/>
+<via x="3.6" y="31.6" extent="1-16" drill="0.3"/>
+<via x="3.6" y="30.2" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="32.6"/>
+<vertex x="5.5" y="30"/>
+<vertex x="3.4" y="30"/>
+<vertex x="3.4" y="32"/>
+<vertex x="4" y="32.6"/>
+</polygon>
+<wire x1="4.5" y1="30.8" x2="57.5" y2="30.8" width="2.2" layer="16"/>
+<wire x1="4.5" y1="30.8" x2="3.7" y2="30.8" width="0.2" layer="16"/>
+<via x="3.8" y="30.9" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="30.8" x2="3.8" y2="30.8" width="1" layer="16"/>
+<wire x1="3.8" y1="30.8" x2="3.8" y2="30.9" width="1" layer="16"/>
+</signal>
+<signal name="N$57">
+<contactref element="LED65" pad="2"/>
+<contactref element="LED73" pad="1"/>
+<wire x1="7.5" y1="45.1" x2="8.3" y2="45.1" width="1" layer="1"/>
+<wire x1="8.3" y1="45.1" x2="11.2" y2="45.1" width="2.8" layer="1"/>
+<wire x1="11.2" y1="45.1" x2="12" y2="45.1" width="1" layer="1"/>
+</signal>
+<signal name="N$58">
+<contactref element="LED73" pad="2"/>
+<contactref element="LED74" pad="1"/>
+<wire x1="14.5" y1="45.1" x2="15.1" y2="45.1" width="1" layer="1"/>
+<wire x1="15.1" y1="45.1" x2="18.2" y2="45.1" width="2.8" layer="1"/>
+<wire x1="18.2" y1="45.1" x2="19" y2="45.1" width="1" layer="1"/>
+</signal>
+<signal name="N$59">
+<contactref element="LED74" pad="2"/>
+<contactref element="LED75" pad="1"/>
+<wire x1="21.5" y1="45.1" x2="22.5" y2="45.1" width="1" layer="1"/>
+<wire x1="22.5" y1="45.1" x2="25.2" y2="45.1" width="2.8" layer="1"/>
+<wire x1="25.2" y1="45.1" x2="26" y2="45.1" width="1" layer="1"/>
+</signal>
+<signal name="N$60">
+<contactref element="LED75" pad="2"/>
+<contactref element="LED76" pad="1"/>
+<wire x1="28.5" y1="45.1" x2="29.2" y2="45.1" width="1" layer="1"/>
+<wire x1="29.2" y1="45.1" x2="32.2" y2="45.1" width="2.8" layer="1"/>
+<wire x1="32.2" y1="45.1" x2="33" y2="45.1" width="1" layer="1"/>
+</signal>
+<signal name="N$61">
+<contactref element="LED76" pad="2"/>
+<contactref element="LED77" pad="1"/>
+<wire x1="35.5" y1="45.1" x2="36.5" y2="45.1" width="1" layer="1"/>
+<wire x1="36.5" y1="45.1" x2="39.2" y2="45.1" width="2.8" layer="1"/>
+<wire x1="39.2" y1="45.1" x2="40" y2="45.1" width="1" layer="1"/>
+</signal>
+<signal name="N$62">
+<contactref element="LED77" pad="2"/>
+<contactref element="LED78" pad="1"/>
+<wire x1="42.5" y1="45.1" x2="43" y2="45.1" width="1" layer="1"/>
+<wire x1="43" y1="45.1" x2="46.2" y2="45.1" width="2.8" layer="1"/>
+<wire x1="46.2" y1="45.1" x2="47" y2="45.1" width="1" layer="1"/>
+</signal>
+<signal name="N$63">
+<contactref element="LED78" pad="2"/>
+<contactref element="LED79" pad="1"/>
+<wire x1="49.5" y1="45.1" x2="50.1" y2="45.1" width="1" layer="1"/>
+<wire x1="50.1" y1="45.1" x2="53.2" y2="45.1" width="2.8" layer="1"/>
+<wire x1="53.2" y1="45.1" x2="54" y2="45.1" width="1" layer="1"/>
+</signal>
+<signal name="N$64">
+<contactref element="LED80" pad="2"/>
+<contactref element="LED66" pad="1"/>
+<wire x1="7.5" y1="41.1" x2="7.8" y2="41.1" width="1" layer="1"/>
+<wire x1="7.8" y1="41.1" x2="11.2" y2="41.1" width="2.8" layer="1"/>
+<wire x1="11.2" y1="41.1" x2="12" y2="41.1" width="1" layer="1"/>
+</signal>
+<signal name="N$65">
+<contactref element="LED66" pad="2"/>
+<contactref element="LED67" pad="1"/>
+<wire x1="19" y1="41.1" x2="18.2" y2="41.1" width="1" layer="1"/>
+<wire x1="18.2" y1="41.1" x2="15.2" y2="41.1" width="2.8" layer="1"/>
+<wire x1="15.2" y1="41.1" x2="14.5" y2="41.1" width="1" layer="1"/>
+</signal>
+<signal name="N$66">
+<contactref element="LED67" pad="2"/>
+<contactref element="LED68" pad="1"/>
+<wire x1="26" y1="41.1" x2="25.2" y2="41.1" width="1" layer="1"/>
+<wire x1="25.2" y1="41.1" x2="22.5" y2="41.1" width="2.8" layer="1"/>
+<wire x1="22.5" y1="41.1" x2="21.5" y2="41.1" width="1" layer="1"/>
+</signal>
+<signal name="N$67">
+<contactref element="LED68" pad="2"/>
+<contactref element="LED69" pad="1"/>
+<wire x1="33" y1="41.1" x2="32.2" y2="41.1" width="1" layer="1"/>
+<wire x1="32.2" y1="41.1" x2="29.4" y2="41.1" width="2.8" layer="1"/>
+<wire x1="29.4" y1="41.1" x2="28.5" y2="41.1" width="1" layer="1"/>
+</signal>
+<signal name="N$68">
+<contactref element="LED69" pad="2"/>
+<contactref element="LED70" pad="1"/>
+<wire x1="40" y1="41.1" x2="39.2" y2="41.1" width="1" layer="1"/>
+<wire x1="39.2" y1="41.1" x2="36.3" y2="41.1" width="2.8" layer="1"/>
+<wire x1="36.3" y1="41.1" x2="35.5" y2="41.1" width="1" layer="1"/>
+</signal>
+<signal name="N$69">
+<contactref element="LED70" pad="2"/>
+<contactref element="LED71" pad="1"/>
+<wire x1="47" y1="41.1" x2="46.2" y2="41.1" width="1" layer="1"/>
+<wire x1="46.2" y1="41.1" x2="43.1" y2="41.1" width="2.8" layer="1"/>
+<wire x1="43.1" y1="41.1" x2="42.5" y2="41.1" width="1" layer="1"/>
+</signal>
+<signal name="N$70">
+<contactref element="LED71" pad="2"/>
+<contactref element="LED72" pad="1"/>
+<wire x1="54" y1="41.1" x2="53.2" y2="41.1" width="1" layer="1"/>
+<wire x1="53.2" y1="41.1" x2="50.1" y2="41.1" width="2.8" layer="1"/>
+<wire x1="50.1" y1="41.1" x2="49.5" y2="41.1" width="1" layer="1"/>
+</signal>
+<signal name="KCOM4">
+<contactref element="LED79" pad="2"/>
+<contactref element="LED72" pad="2"/>
+<contactref element="TP26" pad="1"/>
+<contactref element="TP29" pad="1"/>
+<via x="58.3" y="43.7" extent="1-16" drill="0.3"/>
+<via x="58.3" y="42.5" extent="1-16" drill="0.3"/>
+<wire x1="57.5" y1="43.1" x2="4.5" y2="43.1" width="2.2" layer="16"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="55.5" y="46.4"/>
+<vertex x="55.5" y="39.8"/>
+<vertex x="58.6" y="39.8"/>
+<vertex x="58.6" y="46.4"/>
+</polygon>
+<wire x1="57.5" y1="43.1" x2="58.3" y2="43.1" width="0.2" layer="16"/>
+<wire x1="58.3" y1="43.1" x2="58.3" y2="43.7" width="0.2" layer="16"/>
+<via x="57.6" y="43.1" extent="1-16" drill="0.3"/>
+</signal>
+<signal name="A9">
+<contactref element="LED65" pad="1"/>
+<contactref element="TP25" pad="1"/>
+<contactref element="TP28" pad="1"/>
+<via x="3.6" y="44.8" extent="1-16" drill="0.3"/>
+<via x="3.6" y="46.2" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="46.4"/>
+<vertex x="3.4" y="46.4"/>
+<vertex x="3.4" y="44.4"/>
+<vertex x="4" y="43.8"/>
+<vertex x="5.5" y="43.8"/>
+</polygon>
+<wire x1="4.5" y1="45.6" x2="57.5" y2="45.6" width="2.2" layer="16"/>
+<wire x1="4.5" y1="45.6" x2="3.7" y2="45.6" width="0.2" layer="16"/>
+<via x="3.9" y="45.5" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="45.6" x2="3.9" y2="45.6" width="1" layer="16"/>
+<wire x1="3.9" y1="45.6" x2="3.9" y2="45.5" width="1" layer="16"/>
+</signal>
+<signal name="A10">
+<contactref element="LED80" pad="1"/>
+<contactref element="TP27" pad="1"/>
+<contactref element="TP30" pad="1"/>
+<via x="3.6" y="41.4" extent="1-16" drill="0.3"/>
+<via x="3.6" y="40" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="42.4"/>
+<vertex x="5.5" y="39.8"/>
+<vertex x="3.4" y="39.8"/>
+<vertex x="3.4" y="41.8"/>
+<vertex x="4" y="42.4"/>
+</polygon>
+<wire x1="4.5" y1="40.6" x2="57.5" y2="40.6" width="2.2" layer="16"/>
+<wire x1="4.5" y1="40.6" x2="3.7" y2="40.6" width="0.2" layer="16"/>
+<via x="3.8" y="40.7" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="40.6" x2="3.8" y2="40.6" width="1" layer="16"/>
+<wire x1="3.8" y1="40.6" x2="3.8" y2="40.7" width="1" layer="16"/>
+</signal>
+<signal name="N$71">
+<contactref element="LED81" pad="2"/>
+<contactref element="LED89" pad="1"/>
+<wire x1="7.5" y1="54.9" x2="8.3" y2="54.9" width="1" layer="1"/>
+<wire x1="8.3" y1="54.9" x2="11.2" y2="54.9" width="2.8" layer="1"/>
+<wire x1="11.2" y1="54.9" x2="12" y2="54.9" width="1" layer="1"/>
+</signal>
+<signal name="N$72">
+<contactref element="LED89" pad="2"/>
+<contactref element="LED90" pad="1"/>
+<wire x1="14.5" y1="54.9" x2="15.1" y2="54.9" width="1" layer="1"/>
+<wire x1="15.1" y1="54.9" x2="18.2" y2="54.9" width="2.8" layer="1"/>
+<wire x1="18.2" y1="54.9" x2="19" y2="54.9" width="1" layer="1"/>
+</signal>
+<signal name="N$73">
+<contactref element="LED90" pad="2"/>
+<contactref element="LED91" pad="1"/>
+<wire x1="21.5" y1="54.9" x2="22.5" y2="54.9" width="1" layer="1"/>
+<wire x1="22.5" y1="54.9" x2="25.2" y2="54.9" width="2.8" layer="1"/>
+<wire x1="25.2" y1="54.9" x2="26" y2="54.9" width="1" layer="1"/>
+</signal>
+<signal name="N$74">
+<contactref element="LED91" pad="2"/>
+<contactref element="LED92" pad="1"/>
+<wire x1="28.5" y1="54.9" x2="29.2" y2="54.9" width="1" layer="1"/>
+<wire x1="29.2" y1="54.9" x2="32.2" y2="54.9" width="2.8" layer="1"/>
+<wire x1="32.2" y1="54.9" x2="33" y2="54.9" width="1" layer="1"/>
+</signal>
+<signal name="N$75">
+<contactref element="LED92" pad="2"/>
+<contactref element="LED93" pad="1"/>
+<wire x1="35.5" y1="54.9" x2="36.5" y2="54.9" width="1" layer="1"/>
+<wire x1="36.5" y1="54.9" x2="39.2" y2="54.9" width="2.8" layer="1"/>
+<wire x1="39.2" y1="54.9" x2="40" y2="54.9" width="1" layer="1"/>
+</signal>
+<signal name="N$76">
+<contactref element="LED93" pad="2"/>
+<contactref element="LED94" pad="1"/>
+<wire x1="42.5" y1="54.9" x2="43" y2="54.9" width="1" layer="1"/>
+<wire x1="43" y1="54.9" x2="46.2" y2="54.9" width="2.8" layer="1"/>
+<wire x1="46.2" y1="54.9" x2="47" y2="54.9" width="1" layer="1"/>
+</signal>
+<signal name="N$77">
+<contactref element="LED94" pad="2"/>
+<contactref element="LED95" pad="1"/>
+<wire x1="49.5" y1="54.9" x2="50.1" y2="54.9" width="1" layer="1"/>
+<wire x1="50.1" y1="54.9" x2="53.2" y2="54.9" width="2.8" layer="1"/>
+<wire x1="53.2" y1="54.9" x2="54" y2="54.9" width="1" layer="1"/>
+</signal>
+<signal name="N$78">
+<contactref element="LED96" pad="2"/>
+<contactref element="LED82" pad="1"/>
+<wire x1="7.5" y1="50.9" x2="7.8" y2="50.9" width="1" layer="1"/>
+<wire x1="7.8" y1="50.9" x2="11.2" y2="50.9" width="2.8" layer="1"/>
+<wire x1="11.2" y1="50.9" x2="12" y2="50.9" width="1" layer="1"/>
+</signal>
+<signal name="N$79">
+<contactref element="LED82" pad="2"/>
+<contactref element="LED83" pad="1"/>
+<wire x1="19" y1="50.9" x2="18.2" y2="50.9" width="1" layer="1"/>
+<wire x1="18.2" y1="50.9" x2="15.2" y2="50.9" width="2.8" layer="1"/>
+<wire x1="15.2" y1="50.9" x2="14.5" y2="50.9" width="1" layer="1"/>
+</signal>
+<signal name="N$80">
+<contactref element="LED83" pad="2"/>
+<contactref element="LED84" pad="1"/>
+<wire x1="26" y1="50.9" x2="25.2" y2="50.9" width="1" layer="1"/>
+<wire x1="25.2" y1="50.9" x2="22.5" y2="50.9" width="2.8" layer="1"/>
+<wire x1="22.5" y1="50.9" x2="21.5" y2="50.9" width="1" layer="1"/>
+</signal>
+<signal name="N$81">
+<contactref element="LED84" pad="2"/>
+<contactref element="LED85" pad="1"/>
+<wire x1="33" y1="50.9" x2="32.2" y2="50.9" width="1" layer="1"/>
+<wire x1="32.2" y1="50.9" x2="29.4" y2="50.9" width="2.8" layer="1"/>
+<wire x1="29.4" y1="50.9" x2="28.5" y2="50.9" width="1" layer="1"/>
+</signal>
+<signal name="N$82">
+<contactref element="LED85" pad="2"/>
+<contactref element="LED86" pad="1"/>
+<wire x1="40" y1="50.9" x2="39.2" y2="50.9" width="1" layer="1"/>
+<wire x1="39.2" y1="50.9" x2="36.3" y2="50.9" width="2.8" layer="1"/>
+<wire x1="36.3" y1="50.9" x2="35.5" y2="50.9" width="1" layer="1"/>
+</signal>
+<signal name="N$83">
+<contactref element="LED86" pad="2"/>
+<contactref element="LED87" pad="1"/>
+<wire x1="47" y1="50.9" x2="46.2" y2="50.9" width="1" layer="1"/>
+<wire x1="46.2" y1="50.9" x2="43.1" y2="50.9" width="2.8" layer="1"/>
+<wire x1="43.1" y1="50.9" x2="42.5" y2="50.9" width="1" layer="1"/>
+</signal>
+<signal name="N$84">
+<contactref element="LED87" pad="2"/>
+<contactref element="LED88" pad="1"/>
+<wire x1="54" y1="50.9" x2="53.2" y2="50.9" width="1" layer="1"/>
+<wire x1="53.2" y1="50.9" x2="50.1" y2="50.9" width="2.8" layer="1"/>
+<wire x1="50.1" y1="50.9" x2="49.5" y2="50.9" width="1" layer="1"/>
+</signal>
+<signal name="KCOM5">
+<contactref element="LED95" pad="2"/>
+<contactref element="LED88" pad="2"/>
+<contactref element="TP32" pad="1"/>
+<contactref element="TP35" pad="1"/>
+<via x="58.3" y="53.5" extent="1-16" drill="0.3"/>
+<via x="58.3" y="52.3" extent="1-16" drill="0.3"/>
+<wire x1="57.5" y1="52.9" x2="4.5" y2="52.9" width="2.2" layer="16"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="55.5" y="56.2"/>
+<vertex x="55.5" y="49.6"/>
+<vertex x="58.6" y="49.6"/>
+<vertex x="58.6" y="56.2"/>
+</polygon>
+<wire x1="57.5" y1="52.9" x2="58.3" y2="52.9" width="0.2" layer="16"/>
+<wire x1="58.3" y1="52.9" x2="58.3" y2="53.5" width="0.2" layer="16"/>
+<via x="57.6" y="52.9" extent="1-16" drill="0.3"/>
+</signal>
+<signal name="A11">
+<contactref element="LED81" pad="1"/>
+<contactref element="TP31" pad="1"/>
+<contactref element="TP34" pad="1"/>
+<via x="3.6" y="54.6" extent="1-16" drill="0.3"/>
+<via x="3.6" y="56" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="56.2"/>
+<vertex x="3.4" y="56.2"/>
+<vertex x="3.4" y="54.2"/>
+<vertex x="4" y="53.6"/>
+<vertex x="5.5" y="53.6"/>
+</polygon>
+<wire x1="4.5" y1="55.4" x2="57.5" y2="55.4" width="2.2" layer="16"/>
+<wire x1="4.5" y1="55.4" x2="3.7" y2="55.4" width="0.2" layer="16"/>
+<via x="3.9" y="55.3" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="55.4" x2="3.9" y2="55.4" width="1" layer="16"/>
+<wire x1="3.9" y1="55.4" x2="3.9" y2="55.3" width="1" layer="16"/>
+</signal>
+<signal name="A12">
+<contactref element="LED96" pad="1"/>
+<contactref element="TP33" pad="1"/>
+<contactref element="TP36" pad="1"/>
+<via x="3.6" y="51.2" extent="1-16" drill="0.3"/>
+<via x="3.6" y="49.8" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="52.2"/>
+<vertex x="5.5" y="49.6"/>
+<vertex x="3.4" y="49.6"/>
+<vertex x="3.4" y="51.6"/>
+<vertex x="4" y="52.2"/>
+</polygon>
+<wire x1="4.5" y1="50.4" x2="57.5" y2="50.4" width="2.2" layer="16"/>
+<wire x1="4.5" y1="50.4" x2="3.7" y2="50.4" width="0.2" layer="16"/>
+<via x="3.8" y="50.5" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="50.4" x2="3.8" y2="50.4" width="1" layer="16"/>
+<wire x1="3.8" y1="50.4" x2="3.8" y2="50.5" width="1" layer="16"/>
+</signal>
+<signal name="N$85">
+<contactref element="LED97" pad="2"/>
+<contactref element="LED105" pad="1"/>
+<wire x1="7.5" y1="64.7" x2="8.3" y2="64.7" width="1" layer="1"/>
+<wire x1="8.3" y1="64.7" x2="11.2" y2="64.7" width="2.8" layer="1"/>
+<wire x1="11.2" y1="64.7" x2="12" y2="64.7" width="1" layer="1"/>
+</signal>
+<signal name="N$86">
+<contactref element="LED105" pad="2"/>
+<contactref element="LED106" pad="1"/>
+<wire x1="14.5" y1="64.7" x2="15.1" y2="64.7" width="1" layer="1"/>
+<wire x1="15.1" y1="64.7" x2="18.2" y2="64.7" width="2.8" layer="1"/>
+<wire x1="18.2" y1="64.7" x2="19" y2="64.7" width="1" layer="1"/>
+</signal>
+<signal name="N$87">
+<contactref element="LED106" pad="2"/>
+<contactref element="LED107" pad="1"/>
+<wire x1="21.5" y1="64.7" x2="22.5" y2="64.7" width="1" layer="1"/>
+<wire x1="22.5" y1="64.7" x2="25.2" y2="64.7" width="2.8" layer="1"/>
+<wire x1="25.2" y1="64.7" x2="26" y2="64.7" width="1" layer="1"/>
+</signal>
+<signal name="N$88">
+<contactref element="LED107" pad="2"/>
+<contactref element="LED108" pad="1"/>
+<wire x1="28.5" y1="64.7" x2="29.2" y2="64.7" width="1" layer="1"/>
+<wire x1="29.2" y1="64.7" x2="32.2" y2="64.7" width="2.8" layer="1"/>
+<wire x1="32.2" y1="64.7" x2="33" y2="64.7" width="1" layer="1"/>
+</signal>
+<signal name="N$89">
+<contactref element="LED108" pad="2"/>
+<contactref element="LED109" pad="1"/>
+<wire x1="35.5" y1="64.7" x2="36.5" y2="64.7" width="1" layer="1"/>
+<wire x1="36.5" y1="64.7" x2="39.2" y2="64.7" width="2.8" layer="1"/>
+<wire x1="39.2" y1="64.7" x2="40" y2="64.7" width="1" layer="1"/>
+</signal>
+<signal name="N$90">
+<contactref element="LED109" pad="2"/>
+<contactref element="LED110" pad="1"/>
+<wire x1="42.5" y1="64.7" x2="43" y2="64.7" width="1" layer="1"/>
+<wire x1="43" y1="64.7" x2="46.2" y2="64.7" width="2.8" layer="1"/>
+<wire x1="46.2" y1="64.7" x2="47" y2="64.7" width="1" layer="1"/>
+</signal>
+<signal name="N$91">
+<contactref element="LED110" pad="2"/>
+<contactref element="LED111" pad="1"/>
+<wire x1="49.5" y1="64.7" x2="50.1" y2="64.7" width="1" layer="1"/>
+<wire x1="50.1" y1="64.7" x2="53.2" y2="64.7" width="2.8" layer="1"/>
+<wire x1="53.2" y1="64.7" x2="54" y2="64.7" width="1" layer="1"/>
+</signal>
+<signal name="N$92">
+<contactref element="LED112" pad="2"/>
+<contactref element="LED98" pad="1"/>
+<wire x1="7.5" y1="60.7" x2="7.8" y2="60.7" width="1" layer="1"/>
+<wire x1="7.8" y1="60.7" x2="11.2" y2="60.7" width="2.8" layer="1"/>
+<wire x1="11.2" y1="60.7" x2="12" y2="60.7" width="1" layer="1"/>
+</signal>
+<signal name="N$93">
+<contactref element="LED98" pad="2"/>
+<contactref element="LED99" pad="1"/>
+<wire x1="19" y1="60.7" x2="18.2" y2="60.7" width="1" layer="1"/>
+<wire x1="18.2" y1="60.7" x2="15.2" y2="60.7" width="2.8" layer="1"/>
+<wire x1="15.2" y1="60.7" x2="14.5" y2="60.7" width="1" layer="1"/>
+</signal>
+<signal name="N$94">
+<contactref element="LED99" pad="2"/>
+<contactref element="LED100" pad="1"/>
+<wire x1="26" y1="60.7" x2="25.2" y2="60.7" width="1" layer="1"/>
+<wire x1="25.2" y1="60.7" x2="22.5" y2="60.7" width="2.8" layer="1"/>
+<wire x1="22.5" y1="60.7" x2="21.5" y2="60.7" width="1" layer="1"/>
+</signal>
+<signal name="N$95">
+<contactref element="LED100" pad="2"/>
+<contactref element="LED101" pad="1"/>
+<wire x1="33" y1="60.7" x2="32.2" y2="60.7" width="1" layer="1"/>
+<wire x1="32.2" y1="60.7" x2="29.4" y2="60.7" width="2.8" layer="1"/>
+<wire x1="29.4" y1="60.7" x2="28.5" y2="60.7" width="1" layer="1"/>
+</signal>
+<signal name="N$96">
+<contactref element="LED101" pad="2"/>
+<contactref element="LED102" pad="1"/>
+<wire x1="40" y1="60.7" x2="39.2" y2="60.7" width="1" layer="1"/>
+<wire x1="39.2" y1="60.7" x2="36.3" y2="60.7" width="2.8" layer="1"/>
+<wire x1="36.3" y1="60.7" x2="35.5" y2="60.7" width="1" layer="1"/>
+</signal>
+<signal name="N$97">
+<contactref element="LED102" pad="2"/>
+<contactref element="LED103" pad="1"/>
+<wire x1="47" y1="60.7" x2="46.2" y2="60.7" width="1" layer="1"/>
+<wire x1="46.2" y1="60.7" x2="43.1" y2="60.7" width="2.8" layer="1"/>
+<wire x1="43.1" y1="60.7" x2="42.5" y2="60.7" width="1" layer="1"/>
+</signal>
+<signal name="N$98">
+<contactref element="LED103" pad="2"/>
+<contactref element="LED104" pad="1"/>
+<wire x1="54" y1="60.7" x2="53.2" y2="60.7" width="1" layer="1"/>
+<wire x1="53.2" y1="60.7" x2="50.1" y2="60.7" width="2.8" layer="1"/>
+<wire x1="50.1" y1="60.7" x2="49.5" y2="60.7" width="1" layer="1"/>
+</signal>
+<signal name="KCOM6">
+<contactref element="LED111" pad="2"/>
+<contactref element="LED104" pad="2"/>
+<contactref element="TP38" pad="1"/>
+<contactref element="TP41" pad="1"/>
+<via x="58.3" y="63.3" extent="1-16" drill="0.3"/>
+<via x="58.3" y="62.1" extent="1-16" drill="0.3"/>
+<wire x1="57.5" y1="62.7" x2="4.5" y2="62.7" width="2.2" layer="16"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="55.5" y="66"/>
+<vertex x="55.5" y="59.4"/>
+<vertex x="58.6" y="59.4"/>
+<vertex x="58.6" y="66"/>
+</polygon>
+<wire x1="57.5" y1="62.7" x2="58.3" y2="62.7" width="0.2" layer="16"/>
+<wire x1="58.3" y1="62.7" x2="58.3" y2="63.3" width="0.2" layer="16"/>
+<via x="57.6" y="62.7" extent="1-16" drill="0.3"/>
+</signal>
+<signal name="A13">
+<contactref element="LED97" pad="1"/>
+<contactref element="TP37" pad="1"/>
+<contactref element="TP40" pad="1"/>
+<via x="3.6" y="64.4" extent="1-16" drill="0.3"/>
+<via x="3.6" y="65.8" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="66"/>
+<vertex x="3.4" y="66"/>
+<vertex x="3.4" y="64"/>
+<vertex x="4" y="63.4"/>
+<vertex x="5.5" y="63.4"/>
+</polygon>
+<wire x1="4.5" y1="65.2" x2="57.5" y2="65.2" width="2.2" layer="16"/>
+<wire x1="4.5" y1="65.2" x2="3.7" y2="65.2" width="0.2" layer="16"/>
+<via x="3.9" y="65.1" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="65.2" x2="3.9" y2="65.2" width="1" layer="16"/>
+<wire x1="3.9" y1="65.2" x2="3.9" y2="65.1" width="1" layer="16"/>
+</signal>
+<signal name="A14">
+<contactref element="LED112" pad="1"/>
+<contactref element="TP39" pad="1"/>
+<contactref element="TP42" pad="1"/>
+<via x="3.6" y="61" extent="1-16" drill="0.3"/>
+<via x="3.6" y="59.6" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="62"/>
+<vertex x="5.5" y="59.4"/>
+<vertex x="3.4" y="59.4"/>
+<vertex x="3.4" y="61.4"/>
+<vertex x="4" y="62"/>
+</polygon>
+<wire x1="4.5" y1="60.2" x2="57.5" y2="60.2" width="2.2" layer="16"/>
+<wire x1="4.5" y1="60.2" x2="3.7" y2="60.2" width="0.2" layer="16"/>
+<via x="3.8" y="60.3" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="60.2" x2="3.8" y2="60.2" width="1" layer="16"/>
+<wire x1="3.8" y1="60.2" x2="3.8" y2="60.3" width="1" layer="16"/>
+</signal>
+<signal name="N$99">
+<contactref element="LED113" pad="2"/>
+<contactref element="LED121" pad="1"/>
+<wire x1="7.5" y1="74.5" x2="8.3" y2="74.5" width="1" layer="1"/>
+<wire x1="8.3" y1="74.5" x2="11.2" y2="74.5" width="2.8" layer="1"/>
+<wire x1="11.2" y1="74.5" x2="12" y2="74.5" width="1" layer="1"/>
+</signal>
+<signal name="N$100">
+<contactref element="LED121" pad="2"/>
+<contactref element="LED122" pad="1"/>
+<wire x1="14.5" y1="74.5" x2="15.1" y2="74.5" width="1" layer="1"/>
+<wire x1="15.1" y1="74.5" x2="18.2" y2="74.5" width="2.8" layer="1"/>
+<wire x1="18.2" y1="74.5" x2="19" y2="74.5" width="1" layer="1"/>
+</signal>
+<signal name="N$101">
+<contactref element="LED122" pad="2"/>
+<contactref element="LED123" pad="1"/>
+<wire x1="21.5" y1="74.5" x2="22.5" y2="74.5" width="1" layer="1"/>
+<wire x1="22.5" y1="74.5" x2="25.2" y2="74.5" width="2.8" layer="1"/>
+<wire x1="25.2" y1="74.5" x2="26" y2="74.5" width="1" layer="1"/>
+</signal>
+<signal name="N$102">
+<contactref element="LED123" pad="2"/>
+<contactref element="LED124" pad="1"/>
+<wire x1="28.5" y1="74.5" x2="29.2" y2="74.5" width="1" layer="1"/>
+<wire x1="29.2" y1="74.5" x2="32.2" y2="74.5" width="2.8" layer="1"/>
+<wire x1="32.2" y1="74.5" x2="33" y2="74.5" width="1" layer="1"/>
+</signal>
+<signal name="N$103">
+<contactref element="LED124" pad="2"/>
+<contactref element="LED125" pad="1"/>
+<wire x1="35.5" y1="74.5" x2="36.5" y2="74.5" width="1" layer="1"/>
+<wire x1="36.5" y1="74.5" x2="39.2" y2="74.5" width="2.8" layer="1"/>
+<wire x1="39.2" y1="74.5" x2="40" y2="74.5" width="1" layer="1"/>
+</signal>
+<signal name="N$104">
+<contactref element="LED125" pad="2"/>
+<contactref element="LED126" pad="1"/>
+<wire x1="42.5" y1="74.5" x2="43" y2="74.5" width="1" layer="1"/>
+<wire x1="43" y1="74.5" x2="46.2" y2="74.5" width="2.8" layer="1"/>
+<wire x1="46.2" y1="74.5" x2="47" y2="74.5" width="1" layer="1"/>
+</signal>
+<signal name="N$105">
+<contactref element="LED126" pad="2"/>
+<contactref element="LED127" pad="1"/>
+<wire x1="49.5" y1="74.5" x2="50.1" y2="74.5" width="1" layer="1"/>
+<wire x1="50.1" y1="74.5" x2="53.2" y2="74.5" width="2.8" layer="1"/>
+<wire x1="53.2" y1="74.5" x2="54" y2="74.5" width="1" layer="1"/>
+</signal>
+<signal name="N$106">
+<contactref element="LED128" pad="2"/>
+<contactref element="LED114" pad="1"/>
+<wire x1="7.5" y1="70.5" x2="7.8" y2="70.5" width="1" layer="1"/>
+<wire x1="7.8" y1="70.5" x2="11.2" y2="70.5" width="2.8" layer="1"/>
+<wire x1="11.2" y1="70.5" x2="12" y2="70.5" width="1" layer="1"/>
+</signal>
+<signal name="N$107">
+<contactref element="LED114" pad="2"/>
+<contactref element="LED115" pad="1"/>
+<wire x1="19" y1="70.5" x2="18.2" y2="70.5" width="1" layer="1"/>
+<wire x1="18.2" y1="70.5" x2="15.2" y2="70.5" width="2.8" layer="1"/>
+<wire x1="15.2" y1="70.5" x2="14.5" y2="70.5" width="1" layer="1"/>
+</signal>
+<signal name="N$108">
+<contactref element="LED115" pad="2"/>
+<contactref element="LED116" pad="1"/>
+<wire x1="26" y1="70.5" x2="25.2" y2="70.5" width="1" layer="1"/>
+<wire x1="25.2" y1="70.5" x2="22.5" y2="70.5" width="2.8" layer="1"/>
+<wire x1="22.5" y1="70.5" x2="21.5" y2="70.5" width="1" layer="1"/>
+</signal>
+<signal name="N$109">
+<contactref element="LED116" pad="2"/>
+<contactref element="LED117" pad="1"/>
+<wire x1="33" y1="70.5" x2="32.2" y2="70.5" width="1" layer="1"/>
+<wire x1="32.2" y1="70.5" x2="29.4" y2="70.5" width="2.8" layer="1"/>
+<wire x1="29.4" y1="70.5" x2="28.5" y2="70.5" width="1" layer="1"/>
+</signal>
+<signal name="N$110">
+<contactref element="LED117" pad="2"/>
+<contactref element="LED118" pad="1"/>
+<wire x1="40" y1="70.5" x2="39.2" y2="70.5" width="1" layer="1"/>
+<wire x1="39.2" y1="70.5" x2="36.3" y2="70.5" width="2.8" layer="1"/>
+<wire x1="36.3" y1="70.5" x2="35.5" y2="70.5" width="1" layer="1"/>
+</signal>
+<signal name="N$111">
+<contactref element="LED118" pad="2"/>
+<contactref element="LED119" pad="1"/>
+<wire x1="47" y1="70.5" x2="46.2" y2="70.5" width="1" layer="1"/>
+<wire x1="46.2" y1="70.5" x2="43.1" y2="70.5" width="2.8" layer="1"/>
+<wire x1="43.1" y1="70.5" x2="42.5" y2="70.5" width="1" layer="1"/>
+</signal>
+<signal name="N$112">
+<contactref element="LED119" pad="2"/>
+<contactref element="LED120" pad="1"/>
+<wire x1="54" y1="70.5" x2="53.2" y2="70.5" width="1" layer="1"/>
+<wire x1="53.2" y1="70.5" x2="50.1" y2="70.5" width="2.8" layer="1"/>
+<wire x1="50.1" y1="70.5" x2="49.5" y2="70.5" width="1" layer="1"/>
+</signal>
+<signal name="KCOM7">
+<contactref element="LED127" pad="2"/>
+<contactref element="LED120" pad="2"/>
+<contactref element="TP44" pad="1"/>
+<contactref element="TP47" pad="1"/>
+<via x="58.3" y="73.1" extent="1-16" drill="0.3"/>
+<via x="58.3" y="71.9" extent="1-16" drill="0.3"/>
+<wire x1="57.5" y1="72.5" x2="4.5" y2="72.5" width="2.2" layer="16"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="55.5" y="75.8"/>
+<vertex x="55.5" y="69.2"/>
+<vertex x="58.6" y="69.2"/>
+<vertex x="58.6" y="75.8"/>
+</polygon>
+<wire x1="57.5" y1="72.5" x2="58.3" y2="72.5" width="0.2" layer="16"/>
+<wire x1="58.3" y1="72.5" x2="58.3" y2="73.1" width="0.2" layer="16"/>
+<via x="57.6" y="72.5" extent="1-16" drill="0.3"/>
+</signal>
+<signal name="A15">
+<contactref element="LED113" pad="1"/>
+<contactref element="TP43" pad="1"/>
+<contactref element="TP46" pad="1"/>
+<via x="3.6" y="74.2" extent="1-16" drill="0.3"/>
+<via x="3.6" y="75.6" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="75.8"/>
+<vertex x="3.4" y="75.8"/>
+<vertex x="3.4" y="73.8"/>
+<vertex x="4" y="73.2"/>
+<vertex x="5.5" y="73.2"/>
+</polygon>
+<wire x1="4.5" y1="75" x2="57.5" y2="75" width="2.2" layer="16"/>
+<wire x1="4.5" y1="75" x2="3.7" y2="75" width="0.2" layer="16"/>
+<via x="3.9" y="74.9" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="75" x2="3.9" y2="75" width="1" layer="16"/>
+<wire x1="3.9" y1="75" x2="3.9" y2="74.9" width="1" layer="16"/>
+</signal>
+<signal name="A16">
+<contactref element="LED128" pad="1"/>
+<contactref element="TP45" pad="1"/>
+<contactref element="TP48" pad="1"/>
+<via x="3.6" y="70.8" extent="1-16" drill="0.3"/>
+<via x="3.6" y="69.4" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="71.8"/>
+<vertex x="5.5" y="69.2"/>
+<vertex x="3.4" y="69.2"/>
+<vertex x="3.4" y="71.2"/>
+<vertex x="4" y="71.8"/>
+</polygon>
+<wire x1="4.5" y1="70" x2="57.5" y2="70" width="2.2" layer="16"/>
+<wire x1="4.5" y1="70" x2="3.7" y2="70" width="0.2" layer="16"/>
+<via x="3.8" y="70.1" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="70" x2="3.8" y2="70" width="1" layer="16"/>
+<wire x1="3.8" y1="70" x2="3.8" y2="70.1" width="1" layer="16"/>
+</signal>
+<signal name="N$113">
+<contactref element="LED129" pad="2"/>
+<contactref element="LED137" pad="1"/>
+<wire x1="7.5" y1="84.3" x2="8.3" y2="84.3" width="1" layer="1"/>
+<wire x1="8.3" y1="84.3" x2="11.2" y2="84.3" width="2.8" layer="1"/>
+<wire x1="11.2" y1="84.3" x2="12" y2="84.3" width="1" layer="1"/>
+</signal>
+<signal name="N$114">
+<contactref element="LED137" pad="2"/>
+<contactref element="LED138" pad="1"/>
+<wire x1="14.5" y1="84.3" x2="15.1" y2="84.3" width="1" layer="1"/>
+<wire x1="15.1" y1="84.3" x2="18.2" y2="84.3" width="2.8" layer="1"/>
+<wire x1="18.2" y1="84.3" x2="19" y2="84.3" width="1" layer="1"/>
+</signal>
+<signal name="N$115">
+<contactref element="LED138" pad="2"/>
+<contactref element="LED139" pad="1"/>
+<wire x1="21.5" y1="84.3" x2="22.5" y2="84.3" width="1" layer="1"/>
+<wire x1="22.5" y1="84.3" x2="25.2" y2="84.3" width="2.8" layer="1"/>
+<wire x1="25.2" y1="84.3" x2="26" y2="84.3" width="1" layer="1"/>
+</signal>
+<signal name="N$116">
+<contactref element="LED139" pad="2"/>
+<contactref element="LED140" pad="1"/>
+<wire x1="28.5" y1="84.3" x2="29.2" y2="84.3" width="1" layer="1"/>
+<wire x1="29.2" y1="84.3" x2="32.2" y2="84.3" width="2.8" layer="1"/>
+<wire x1="32.2" y1="84.3" x2="33" y2="84.3" width="1" layer="1"/>
+</signal>
+<signal name="N$117">
+<contactref element="LED140" pad="2"/>
+<contactref element="LED141" pad="1"/>
+<wire x1="35.5" y1="84.3" x2="36.5" y2="84.3" width="1" layer="1"/>
+<wire x1="36.5" y1="84.3" x2="39.2" y2="84.3" width="2.8" layer="1"/>
+<wire x1="39.2" y1="84.3" x2="40" y2="84.3" width="1" layer="1"/>
+</signal>
+<signal name="N$118">
+<contactref element="LED141" pad="2"/>
+<contactref element="LED142" pad="1"/>
+<wire x1="42.5" y1="84.3" x2="43" y2="84.3" width="1" layer="1"/>
+<wire x1="43" y1="84.3" x2="46.2" y2="84.3" width="2.8" layer="1"/>
+<wire x1="46.2" y1="84.3" x2="47" y2="84.3" width="1" layer="1"/>
+</signal>
+<signal name="N$119">
+<contactref element="LED142" pad="2"/>
+<contactref element="LED143" pad="1"/>
+<wire x1="49.5" y1="84.3" x2="50.1" y2="84.3" width="1" layer="1"/>
+<wire x1="50.1" y1="84.3" x2="53.2" y2="84.3" width="2.8" layer="1"/>
+<wire x1="53.2" y1="84.3" x2="54" y2="84.3" width="1" layer="1"/>
+</signal>
+<signal name="N$120">
+<contactref element="LED144" pad="2"/>
+<contactref element="LED130" pad="1"/>
+<wire x1="7.5" y1="80.3" x2="7.8" y2="80.3" width="1" layer="1"/>
+<wire x1="7.8" y1="80.3" x2="11.2" y2="80.3" width="2.8" layer="1"/>
+<wire x1="11.2" y1="80.3" x2="12" y2="80.3" width="1" layer="1"/>
+</signal>
+<signal name="N$121">
+<contactref element="LED130" pad="2"/>
+<contactref element="LED131" pad="1"/>
+<wire x1="19" y1="80.3" x2="18.2" y2="80.3" width="1" layer="1"/>
+<wire x1="18.2" y1="80.3" x2="15.2" y2="80.3" width="2.8" layer="1"/>
+<wire x1="15.2" y1="80.3" x2="14.5" y2="80.3" width="1" layer="1"/>
+</signal>
+<signal name="N$122">
+<contactref element="LED131" pad="2"/>
+<contactref element="LED132" pad="1"/>
+<wire x1="26" y1="80.3" x2="25.2" y2="80.3" width="1" layer="1"/>
+<wire x1="25.2" y1="80.3" x2="22.5" y2="80.3" width="2.8" layer="1"/>
+<wire x1="22.5" y1="80.3" x2="21.5" y2="80.3" width="1" layer="1"/>
+</signal>
+<signal name="N$123">
+<contactref element="LED132" pad="2"/>
+<contactref element="LED133" pad="1"/>
+<wire x1="33" y1="80.3" x2="32.2" y2="80.3" width="1" layer="1"/>
+<wire x1="32.2" y1="80.3" x2="29.4" y2="80.3" width="2.8" layer="1"/>
+<wire x1="29.4" y1="80.3" x2="28.5" y2="80.3" width="1" layer="1"/>
+</signal>
+<signal name="N$124">
+<contactref element="LED133" pad="2"/>
+<contactref element="LED134" pad="1"/>
+<wire x1="40" y1="80.3" x2="39.2" y2="80.3" width="1" layer="1"/>
+<wire x1="39.2" y1="80.3" x2="36.3" y2="80.3" width="2.8" layer="1"/>
+<wire x1="36.3" y1="80.3" x2="35.5" y2="80.3" width="1" layer="1"/>
+</signal>
+<signal name="N$125">
+<contactref element="LED134" pad="2"/>
+<contactref element="LED135" pad="1"/>
+<wire x1="47" y1="80.3" x2="46.2" y2="80.3" width="1" layer="1"/>
+<wire x1="46.2" y1="80.3" x2="43.1" y2="80.3" width="2.8" layer="1"/>
+<wire x1="43.1" y1="80.3" x2="42.5" y2="80.3" width="1" layer="1"/>
+</signal>
+<signal name="N$126">
+<contactref element="LED135" pad="2"/>
+<contactref element="LED136" pad="1"/>
+<wire x1="54" y1="80.3" x2="53.2" y2="80.3" width="1" layer="1"/>
+<wire x1="53.2" y1="80.3" x2="50.1" y2="80.3" width="2.8" layer="1"/>
+<wire x1="50.1" y1="80.3" x2="49.5" y2="80.3" width="1" layer="1"/>
+</signal>
+<signal name="KCOM8">
+<contactref element="LED143" pad="2"/>
+<contactref element="LED136" pad="2"/>
+<contactref element="TP50" pad="1"/>
+<contactref element="TP53" pad="1"/>
+<via x="58.3" y="82.9" extent="1-16" drill="0.3"/>
+<via x="58.3" y="81.7" extent="1-16" drill="0.3"/>
+<wire x1="57.5" y1="82.3" x2="4.5" y2="82.3" width="2.2" layer="16"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="55.5" y="85.6"/>
+<vertex x="55.5" y="79"/>
+<vertex x="58.6" y="79"/>
+<vertex x="58.6" y="85.6"/>
+</polygon>
+<wire x1="57.5" y1="82.3" x2="58.3" y2="82.3" width="0.2" layer="16"/>
+<wire x1="58.3" y1="82.3" x2="58.3" y2="82.9" width="0.2" layer="16"/>
+<via x="57.6" y="82.3" extent="1-16" drill="0.3"/>
+</signal>
+<signal name="A17">
+<contactref element="LED129" pad="1"/>
+<contactref element="TP49" pad="1"/>
+<contactref element="TP52" pad="1"/>
+<via x="3.6" y="84" extent="1-16" drill="0.3"/>
+<via x="3.6" y="85.4" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="85.6"/>
+<vertex x="3.4" y="85.6"/>
+<vertex x="3.4" y="83.6"/>
+<vertex x="4" y="83"/>
+<vertex x="5.5" y="83"/>
+</polygon>
+<wire x1="4.5" y1="84.8" x2="57.5" y2="84.8" width="2.2" layer="16"/>
+<wire x1="4.5" y1="84.8" x2="3.7" y2="84.8" width="0.2" layer="16"/>
+<via x="3.9" y="84.7" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="84.8" x2="3.9" y2="84.8" width="1" layer="16"/>
+<wire x1="3.9" y1="84.8" x2="3.9" y2="84.7" width="1" layer="16"/>
+</signal>
+<signal name="A18">
+<contactref element="LED144" pad="1"/>
+<contactref element="TP51" pad="1"/>
+<contactref element="TP54" pad="1"/>
+<via x="3.6" y="80.6" extent="1-16" drill="0.3"/>
+<via x="3.6" y="79.2" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="81.6"/>
+<vertex x="5.5" y="79"/>
+<vertex x="3.4" y="79"/>
+<vertex x="3.4" y="81"/>
+<vertex x="4" y="81.6"/>
+</polygon>
+<wire x1="4.5" y1="79.8" x2="57.5" y2="79.8" width="2.2" layer="16"/>
+<wire x1="4.5" y1="79.8" x2="3.7" y2="79.8" width="0.2" layer="16"/>
+<via x="3.8" y="79.9" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="79.8" x2="3.8" y2="79.8" width="1" layer="16"/>
+<wire x1="3.8" y1="79.8" x2="3.8" y2="79.9" width="1" layer="16"/>
+</signal>
+<signal name="N$127">
+<contactref element="LED145" pad="2"/>
+<contactref element="LED153" pad="1"/>
+<wire x1="7.5" y1="94.1" x2="8.3" y2="94.1" width="1" layer="1"/>
+<wire x1="8.3" y1="94.1" x2="11.2" y2="94.1" width="2.8" layer="1"/>
+<wire x1="11.2" y1="94.1" x2="12" y2="94.1" width="1" layer="1"/>
+</signal>
+<signal name="N$128">
+<contactref element="LED153" pad="2"/>
+<contactref element="LED154" pad="1"/>
+<wire x1="14.5" y1="94.1" x2="15.1" y2="94.1" width="1" layer="1"/>
+<wire x1="15.1" y1="94.1" x2="18.2" y2="94.1" width="2.8" layer="1"/>
+<wire x1="18.2" y1="94.1" x2="19" y2="94.1" width="1" layer="1"/>
+</signal>
+<signal name="N$129">
+<contactref element="LED154" pad="2"/>
+<contactref element="LED155" pad="1"/>
+<wire x1="21.5" y1="94.1" x2="22.5" y2="94.1" width="1" layer="1"/>
+<wire x1="22.5" y1="94.1" x2="25.2" y2="94.1" width="2.8" layer="1"/>
+<wire x1="25.2" y1="94.1" x2="26" y2="94.1" width="1" layer="1"/>
+</signal>
+<signal name="N$130">
+<contactref element="LED155" pad="2"/>
+<contactref element="LED156" pad="1"/>
+<wire x1="28.5" y1="94.1" x2="29.2" y2="94.1" width="1" layer="1"/>
+<wire x1="29.2" y1="94.1" x2="32.2" y2="94.1" width="2.8" layer="1"/>
+<wire x1="32.2" y1="94.1" x2="33" y2="94.1" width="1" layer="1"/>
+</signal>
+<signal name="N$131">
+<contactref element="LED156" pad="2"/>
+<contactref element="LED157" pad="1"/>
+<wire x1="35.5" y1="94.1" x2="36.5" y2="94.1" width="1" layer="1"/>
+<wire x1="36.5" y1="94.1" x2="39.2" y2="94.1" width="2.8" layer="1"/>
+<wire x1="39.2" y1="94.1" x2="40" y2="94.1" width="1" layer="1"/>
+</signal>
+<signal name="N$132">
+<contactref element="LED157" pad="2"/>
+<contactref element="LED158" pad="1"/>
+<wire x1="42.5" y1="94.1" x2="43" y2="94.1" width="1" layer="1"/>
+<wire x1="43" y1="94.1" x2="46.2" y2="94.1" width="2.8" layer="1"/>
+<wire x1="46.2" y1="94.1" x2="47" y2="94.1" width="1" layer="1"/>
+</signal>
+<signal name="N$133">
+<contactref element="LED158" pad="2"/>
+<contactref element="LED159" pad="1"/>
+<wire x1="49.5" y1="94.1" x2="50.1" y2="94.1" width="1" layer="1"/>
+<wire x1="50.1" y1="94.1" x2="53.2" y2="94.1" width="2.8" layer="1"/>
+<wire x1="53.2" y1="94.1" x2="54" y2="94.1" width="1" layer="1"/>
+</signal>
+<signal name="N$134">
+<contactref element="LED160" pad="2"/>
+<contactref element="LED146" pad="1"/>
+<wire x1="7.5" y1="90.1" x2="7.8" y2="90.1" width="1" layer="1"/>
+<wire x1="7.8" y1="90.1" x2="11.2" y2="90.1" width="2.8" layer="1"/>
+<wire x1="11.2" y1="90.1" x2="12" y2="90.1" width="1" layer="1"/>
+</signal>
+<signal name="N$135">
+<contactref element="LED146" pad="2"/>
+<contactref element="LED147" pad="1"/>
+<wire x1="19" y1="90.1" x2="18.2" y2="90.1" width="1" layer="1"/>
+<wire x1="18.2" y1="90.1" x2="15.2" y2="90.1" width="2.8" layer="1"/>
+<wire x1="15.2" y1="90.1" x2="14.5" y2="90.1" width="1" layer="1"/>
+</signal>
+<signal name="N$136">
+<contactref element="LED147" pad="2"/>
+<contactref element="LED148" pad="1"/>
+<wire x1="26" y1="90.1" x2="25.2" y2="90.1" width="1" layer="1"/>
+<wire x1="25.2" y1="90.1" x2="22.5" y2="90.1" width="2.8" layer="1"/>
+<wire x1="22.5" y1="90.1" x2="21.5" y2="90.1" width="1" layer="1"/>
+</signal>
+<signal name="N$137">
+<contactref element="LED148" pad="2"/>
+<contactref element="LED149" pad="1"/>
+<wire x1="33" y1="90.1" x2="32.2" y2="90.1" width="1" layer="1"/>
+<wire x1="32.2" y1="90.1" x2="29.4" y2="90.1" width="2.8" layer="1"/>
+<wire x1="29.4" y1="90.1" x2="28.5" y2="90.1" width="1" layer="1"/>
+</signal>
+<signal name="N$138">
+<contactref element="LED149" pad="2"/>
+<contactref element="LED150" pad="1"/>
+<wire x1="40" y1="90.1" x2="39.2" y2="90.1" width="1" layer="1"/>
+<wire x1="39.2" y1="90.1" x2="36.3" y2="90.1" width="2.8" layer="1"/>
+<wire x1="36.3" y1="90.1" x2="35.5" y2="90.1" width="1" layer="1"/>
+</signal>
+<signal name="N$139">
+<contactref element="LED150" pad="2"/>
+<contactref element="LED151" pad="1"/>
+<wire x1="47" y1="90.1" x2="46.2" y2="90.1" width="1" layer="1"/>
+<wire x1="46.2" y1="90.1" x2="43.1" y2="90.1" width="2.8" layer="1"/>
+<wire x1="43.1" y1="90.1" x2="42.5" y2="90.1" width="1" layer="1"/>
+</signal>
+<signal name="N$140">
+<contactref element="LED151" pad="2"/>
+<contactref element="LED152" pad="1"/>
+<wire x1="54" y1="90.1" x2="53.2" y2="90.1" width="1" layer="1"/>
+<wire x1="53.2" y1="90.1" x2="50.1" y2="90.1" width="2.8" layer="1"/>
+<wire x1="50.1" y1="90.1" x2="49.5" y2="90.1" width="1" layer="1"/>
+</signal>
+<signal name="KCOM9">
+<contactref element="LED159" pad="2"/>
+<contactref element="LED152" pad="2"/>
+<contactref element="TP56" pad="1"/>
+<contactref element="TP59" pad="1"/>
+<via x="58.3" y="92.7" extent="1-16" drill="0.3"/>
+<via x="58.3" y="91.5" extent="1-16" drill="0.3"/>
+<wire x1="57.5" y1="92.1" x2="4.5" y2="92.1" width="2.2" layer="16"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="55.5" y="95.4"/>
+<vertex x="55.5" y="88.8"/>
+<vertex x="58.6" y="88.8"/>
+<vertex x="58.6" y="95.4"/>
+</polygon>
+<wire x1="57.5" y1="92.1" x2="58.3" y2="92.1" width="0.2" layer="16"/>
+<wire x1="58.3" y1="92.1" x2="58.3" y2="92.7" width="0.2" layer="16"/>
+<via x="57.6" y="92.1" extent="1-16" drill="0.3"/>
+</signal>
+<signal name="A19">
+<contactref element="LED145" pad="1"/>
+<contactref element="TP55" pad="1"/>
+<contactref element="TP58" pad="1"/>
+<via x="3.6" y="93.8" extent="1-16" drill="0.3"/>
+<via x="3.6" y="95.2" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="95.4"/>
+<vertex x="3.4" y="95.4"/>
+<vertex x="3.4" y="93.4"/>
+<vertex x="4" y="92.8"/>
+<vertex x="5.5" y="92.8"/>
+</polygon>
+<wire x1="4.5" y1="94.6" x2="57.5" y2="94.6" width="2.2" layer="16"/>
+<wire x1="4.5" y1="94.6" x2="3.7" y2="94.6" width="0.2" layer="16"/>
+<via x="3.9" y="94.5" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="94.6" x2="3.9" y2="94.6" width="1" layer="16"/>
+<wire x1="3.9" y1="94.6" x2="3.9" y2="94.5" width="1" layer="16"/>
+</signal>
+<signal name="A20">
+<contactref element="LED160" pad="1"/>
+<contactref element="TP57" pad="1"/>
+<contactref element="TP60" pad="1"/>
+<via x="3.6" y="90.4" extent="1-16" drill="0.3"/>
+<via x="3.6" y="89" extent="1-16" drill="0.3"/>
+<polygon width="0.2" layer="1" thermals="no">
+<vertex x="5.5" y="91.4"/>
+<vertex x="5.5" y="88.8"/>
+<vertex x="3.4" y="88.8"/>
+<vertex x="3.4" y="90.8"/>
+<vertex x="4" y="91.4"/>
+</polygon>
+<wire x1="4.5" y1="89.6" x2="57.5" y2="89.6" width="2.2" layer="16"/>
+<wire x1="4.5" y1="89.6" x2="3.7" y2="89.6" width="0.2" layer="16"/>
+<via x="3.8" y="89.7" extent="1-16" drill="0.3"/>
+<wire x1="3.7" y1="89.6" x2="3.8" y2="89.6" width="1" layer="16"/>
+<wire x1="3.8" y1="89.6" x2="3.8" y2="89.7" width="1" layer="16"/>
+</signal>
+</signals>
+<errors>
+<approved hash="4,16,f056c19d3f970dac"/>
+<approved hash="19,16,5be13f253f045bc0"/>
+<approved hash="19,16,5abd3e793d98595c"/>
+<approved hash="19,16,a41248d64a6aa6ae"/>
+<approved hash="4,16,e076d19d2f971c6c"/>
+<approved hash="19,16,5be13f253c0458c0"/>
+<approved hash="19,16,5c1538d13e505a94"/>
+<approved hash="19,16,58a37c67718c5548"/>
+<approved hash="4,16,d8b2e927171324a6"/>
+<approved hash="4,16,d052e1451f532c64"/>
+<approved hash="19,16,59e13d253d0459c0"/>
+<approved hash="19,16,5cb538713e705ab4"/>
+<approved hash="19,16,a5a249664a0aa6ce"/>
+<approved hash="4,16,f8eec923375f04e2"/>
+<approved hash="4,16,e0d2d14d2f531cdc"/>
+<approved hash="19,16,59213de53d845940"/>
+<approved hash="19,16,5a1d3ed93db8597c"/>
+<approved hash="19,16,57f37337722c56e8"/>
+<approved hash="4,16,f876c98337970462"/>
+<approved hash="4,16,d072e1851f932c64"/>
+<approved hash="19,16,5b113fd53c7458b0"/>
+<approved hash="19,16,5de539213e005ac4"/>
+<approved hash="19,16,9ab2767648aaa46e"/>
+<approved hash="4,16,f9dec803360f05a2"/>
+<approved hash="4,16,11f2202dde53edfc"/>
+<approved hash="19,16,5bf13f353cd45810"/>
+<approved hash="19,16,5c9d38593cb8587c"/>
+<approved hash="19,16,a7224be64b8aa74e"/>
+<approved hash="4,16,e1b6d1ad2f971dbc"/>
+<approved hash="19,16,5cb138753e545a90"/>
+<approved hash="19,16,5fe53b213b005fc4"/>
+<approved hash="19,16,58137cd7726c56a8"/>
+<approved hash="4,16,99d2a84f565365de"/>
+<approved hash="4,16,e052d1a52f531c64"/>
+<approved hash="19,16,5de539213d0059c4"/>
+<approved hash="19,16,5eb13a753c545890"/>
+<approved hash="19,16,5b137fd77e6c5aa8"/>
+<approved hash="4,16,f1bec0253e2f0da4"/>
+<approved hash="19,16,5f113bd53ab45e70"/>
+<approved hash="19,16,5a253ee13e805a44"/>
+<approved hash="19,16,bbf257364beaa72e"/>
+<approved hash="4,16,e0ded1052f0f1ca4"/>
+<approved hash="19,16,59fd3d393d1859dc"/>
+<approved hash="19,16,58913c553db45970"/>
+<approved hash="19,16,58237ce7708c5448"/>
+<approved hash="4,16,d7d2e62518132ba4"/>
+<approved hash="19,16,643100f53cd45810"/>
+<approved hash="19,16,5be53f213c0058c4"/>
+<approved hash="19,16,a6924a564beaa72e"/>
+<approved hash="4,16,f7bec1a33faf0ba2"/>
+<approved hash="4,16,f852c99d37931bac"/>
+<approved hash="19,16,5a1d3ed93db8597c"/>
+<approved hash="19,16,5bf13f353e545a90"/>
+<approved hash="19,16,56a37267718c5548"/>
+<approved hash="4,16,1856294dd757e45c"/>
+<approved hash="19,16,58913c553db45970"/>
+<approved hash="19,16,5ca538613d805944"/>
+<approved hash="19,16,57f37337706c54a8"/>
+<approved hash="4,16,9072a1af5f536c7e"/>
+<approved hash="4,16,f0eec1053f1f0ce4"/>
+<approved hash="19,16,5a953e513dd05914"/>
+<approved hash="19,16,5de139253d0459c0"/>
+<approved hash="19,16,a42248e6488aa44e"/>
+<approved hash="4,16,f7dec645384f0be4"/>
+<approved hash="19,16,5a313ef53ed45a10"/>
+<approved hash="19,16,47e52321220046c4"/>
+<approved hash="19,16,a49248564beaa72e"/>
+<approved hash="4,16,f8f2c905371304e4"/>
+<approved hash="19,16,55e531213d0059c4"/>
+<approved hash="19,16,5a913e553df45930"/>
+<approved hash="19,16,563372f772ac5668"/>
+<approved hash="4,16,e7b2d62528131ba4"/>
+<approved hash="19,16,5a353ef13ef05a34"/>
+<approved hash="19,16,5fe13b253a045ec0"/>
+<approved hash="19,16,562372e7710c55c8"/>
+<approved hash="4,16,90b2a15d5f536cac"/>
+<approved hash="19,16,589d3c593db8597c"/>
+<approved hash="19,16,24a140653d845940"/>
+<approved hash="19,16,a5f249364a2aa6ee"/>
+<approved hash="4,16,f856c64338570462"/>
+<approved hash="4,16,1853299ed792e4af"/>
+<approved hash="4,16,d7f2e60718132be6"/>
+<approved hash="4,16,e7eed625285f1be4"/>
+<approved hash="19,16,5c3d38f93c98585c"/>
+<approved hash="19,16,5be13f253c0458c0"/>
+<approved hash="19,16,5493705771ec5528"/>
+<approved hash="4,16,f076c1ad38570c7c"/>
+<approved hash="19,16,5bfd3f393e185adc"/>
+<approved hash="19,16,5a113ed53db45970"/>
+<approved hash="19,16,a4a248664b8aa74e"/>
+<approved hash="4,16,6cadef421162909d"/>
+<approved hash="4,16,0c6d8fa67062f059"/>
+<approved hash="4,16,1bd59842666ae7dd"/>
+<approved hash="19,16,7210b6d4b5a27166"/>
+<approved hash="19,16,62a0ce64c88b644f"/>
+<approved hash="19,16,9bf13734c82b64ee"/>
+<approved hash="4,16,e46e67a39961185c"/>
+<approved hash="4,16,0cf58f1e712af0d1"/>
+<approved hash="4,16,1bd5981e662ae791"/>
+<approved hash="19,16,7260b6a4b5827146"/>
+<approved hash="19,16,1aa0b664c88b644f"/>
+<approved hash="19,16,63f0cf34c86b64af"/>
+<approved hash="4,16,6c5fef8211b0909d"/>
+<approved hash="4,16,0bb5882e762af781"/>
+<approved hash="4,16,e4bd67a699921899"/>
+<approved hash="4,16,04f58702792af8dd"/>
+<approved hash="19,16,73e0b724b40270c6"/>
+<approved hash="19,16,7a90d654caeb662f"/>
+<approved hash="19,16,62a0ce64cc8b604f"/>
+<approved hash="4,16,0c53884e766cf061"/>
+<approved hash="4,16,2bd5a822566ad7dd"/>
+<approved hash="4,16,0c5d8f8671b2f799"/>
+<approved hash="4,16,046d87a26662f85d"/>
+<approved hash="19,16,7230b6f4b6e27226"/>
+<approved hash="19,16,5a90f654caeb662f"/>
+<approved hash="19,16,6290ce54caeb662f"/>
+<approved hash="4,16,2bf7a8025628d7dd"/>
+<approved hash="19,16,73e0b724b40270c6"/>
+<approved hash="19,16,7aa0d664d48b784f"/>
+<approved hash="19,16,6520c9e4c90b65cf"/>
+<approved hash="4,16,0bb387a679acf799"/>
+<approved hash="4,16,1c5d9e466072e059"/>
+<approved hash="19,16,75e0b124b50271c6"/>
+<approved hash="19,16,6720cbe4cb8b674f"/>
+<approved hash="19,16,67a0cb64ca0b66cf"/>
+<approved hash="4,16,24d7a7425968d8dd"/>
+<approved hash="19,16,7460b0a4b4827046"/>
+<approved hash="19,16,79f0d534caeb662f"/>
+<approved hash="19,16,6420c8e4c88b644f"/>
+<approved hash="4,16,05f3862e786cf9c1"/>
+<approved hash="4,16,1cf59f2e616ae0c1"/>
+<approved hash="4,16,0dd58e4e706af1e1"/>
+<approved hash="4,16,1cbd9f226112e09d"/>
+<approved hash="19,16,74b0b074b66272a6"/>
+<approved hash="19,16,7910d5d4ca6b66af"/>
+<approved hash="19,16,6410c8d4ca6b66af"/>
+<approved hash="4,16,0473878679acf859"/>
+<approved hash="4,16,1c559fa261aae09d"/>
+<approved hash="4,16,eddd6e029032119d"/>
+<approved hash="4,16,2c75af8251aad05d"/>
+<approved hash="19,16,73e0b724b70273c6"/>
+<approved hash="19,16,1820b4e4b48b184f"/>
+<approved hash="19,16,6510c9d4ca6b66af"/>
+<approved hash="4,16,65bfe6221810999d"/>
+<approved hash="4,16,1c6d9f8661a2e059"/>
+<approved hash="19,16,7090b454b5a27166"/>
+<approved hash="19,16,6720cbe4cb8b674f"/>
+<approved hash="19,16,63f0cf34cc2b60ef"/>
+<approved hash="4,16,04d3871e792cf891"/>
+<approved hash="4,16,2cb5afa251aad09d"/>
+</errors>
+</board>
+</drawing>
+</eagle>
